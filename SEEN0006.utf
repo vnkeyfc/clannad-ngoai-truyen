@@ -28,7 +28,7 @@
 <0008> Chiếc cặp trên lưng va nẩy dữ dội theo từng bước chạy của mình, hướng về hàng rào.
 // My backpack shakes violently as I run toward the fence.
 
-<0009> Onii-chan nói rằng anh ấy sẽ thi đấu giao hữu với đội của trường cấp 2 Dai-Ichi trong tuần này và tuần sau. Đó hẳn là đội có áo đồng phục màu tím sáng.
+<0009> Onii-chan nói rằng anh ấy sẽ thi đấu giao hữu với đội của trường cấp 2 Dai-Ichi trong tuần này và tuần sau. Đó hẳn là đội có áo đồng phục màu tím nhạt.
 // He did say that there were practice games with Dai-Ichi Middle School this week and next. That must be the opposing team with the light purple uniform.
 
 <0010> Anh ấy tự tin nói rằng sẽ đánh bại họ, nhưng đã xảy ra chuyện gì thế này?
@@ -163,7 +163,7 @@
 <0053> \ Oáiiiiii!
 // \ Ahhhhhh!
 
-<0054> Mình tắt TV đi.
+<0054> Mình tắt TV.
 // I shut off the TV.
 
 <0055> Nghe em nói đi! Thiệt tình... Cớ sao anh lại gây rắc rối cho đội nhà vậy?
@@ -181,7 +181,7 @@
 <0059> Hả?
 // What?
 
-<0060> Ban chiêu mộ sẽ đến đây sớm thôi. Anh tưởng có thể vào một trường cáp 3 tốt với điểm học bạ như thế à?!
+<0060> Ban chiêu mộ sẽ đến đây sớm thôi. Anh tưởng có thể vào một trường cấp 3 tốt với điểm học bạ như thế à?!
 // Recruiters might be coming soon. Do you think you can get into a good high school with your grades?!
 
 <0061> Ờ thì...
@@ -196,13 +196,13 @@
 <0064> Lão bảo anh phải làm nguội cái đầu lại. Anh bị cấm túc trong năm ngày.
 // He told me to cool my head. I'm suspended for five days.
 
-<0065> Còn một trận đấu nữa với trường Dai-Ichi vào tuần sau và anh không được phép luyện tập. Thế chưa đủ làm anh lo sao?
+<0065> Còn một trận đấu nữa với trường Dai-Ichi vào tuần sau, và anh thì không được phép luyện tập. Thế chưa đủ làm anh lo sao?
 // There's another game with Dai-Ichi Middle School next week and you can't practice. Doesn't that make you feel terrible?
 
 <0066> Ha... Haha...
 // Ha... Haha...
 
-<0067> Onii-chan cười khan. Mình hiểu là anh ấy sẽ thấy buồn, nhưng phải xem đây là một cơ hội để vực dậy và...
+<0067> Onii-chan cười khan. Mình hiểu là anh ấy sẽ thấy buồn, nhưng cần xem đây là một cơ hội để vực dậy và...
 // I can hear his dry laughter. Of course he's mortified, but he has to take this chance to get back on his feet and...
 
 <0068> Haha...
@@ -328,7 +328,7 @@
 <0108> Gì cơ? Mắc mớ gì anh phải làm cái việc đáng xấu hổ đó chứ?
 // What? Why do I have to do something so embarrassing?
 
-<0109> Anh phải loại bỏ hết những suy nghĩ tiêu cực và tập trung tinh thần vào bóng đá!
+<0109> Anh cần loại bỏ hết những suy nghĩ tiêu cực và tập trung tinh thần vào bóng đá!
 // You have to lose all your evil thoughts and try to focus only on soccer!
 
 <0110> Ha!
@@ -625,7 +625,7 @@
 <0207> Xem đâyyyyyyyyy!
 // Raaaaaaaaagh!
 
-<0208> Anh ấy hét lên đầy uy dũng và chạy vào khoảng trống ở bên cánh phải.
+<0208> Anh ấy hét lên đầy uy dũng và chạy vào khoảng trống bên cánh phải.
 // He lets out a big yell and runs into an open space on the right side.
 
 <0209> \ Khoảng trống đó được tạo nên nhờ một người đồng đội đã cố gắng giữ bóng phía dưới.
@@ -673,7 +673,7 @@
 <0223> Anh ấy bị đẩy người!
 // He was pulled down!
 
-<0224> Anh ấy bị kéo vai và đẩy xuống! Mình đã chứng kiến tất cả!
+<0224> Onii-chan bị kéo vai và đẩy xuống! Mình đã chứng kiến tất cả!
 // He was grabbed by the shoulder and pulled down! I saw it!
 
 <0225> Kajiyama-san nhíu mày. Hắn ta hẳn là không cố tính làm thế. Bằng biểu cảm khó xử, hắn nhìn về phía trọng tài, và những cầu thủ khác cũng làm theo.
@@ -685,19 +685,19 @@
 <0227> Trọng tài lắc đầu.
 // The referee shakes his head.
 
-<0228> Không có lỗi. Trận đấu được tiếp diễn.
+<0228> Không có lỗi. Trận đấu được tiếp tục.
 // No foul called. The game continues.
 
 <0229> Không thể nào!
 // No way!
 
-<0230> Mình không thể làm gì ngoài thốt ra câu đó.
+<0230> Mình buột miệng kêu lên.
 // I can't help but blurt that out.
 
-<0231> Đó rõ ràng là một lỗi. Điều này thật tồi tệ! Tại sao ông lại không thấy thế?!
+<0231> Rõ ràng là lỗi mà. Thật kinh khủng! Cớ sao ông lại nhắm mắt làm ngơ?!
 // That was definitely a foul. This is horrible! Why can't you see that?!
 
-<0232> Cầu thủ bên Dai-Ichi thở phào nhẹ nhõm. Cầu thủ đội Kouyou thì thất vọng.
+<0232> Cầu thủ bên Dai-Ichi thở phào nhẹ nhõm. Cầu thủ đội Kouyou không giấu nổi thất vọng.
 // The players of Dai-Ichi Middle School breathe a sigh of relief. The Kouyou players are all mortified.
 
 <0233> Không khí căng thẳng đã được giải tỏa. Kajiyama-san cũng vậy.
@@ -706,114 +706,114 @@
 <0234> Đằng sau hắn, một bóng đen vụt qua.
 // Behind him, a shadow runs past.
 
-<0235> Anh ấy bay như thể một mũi cung cắt băng bầu không khí nặng nề.
+<0235> Anh ấy phi thân tựa như một mũi cung sắc nhọn cắt băng bầu không khí vừa mới chùng xuống.
 // He flies like a sharp arrow cutting through the slackened atmosphere.
 
 <0236> Onii-chan...?
 // Onii-chan...?
 
-<0237> Không có lỗi. Trận đáu tiếp tục!
+<0237> Không có lỗi. Trận đấu tiếp tục!
 // No foul called. The game continues!
 
 <0238> ...!
 // ...!
 
-<0239> Kajiyama-san điên cuồng bám theo, nhưng hắn không thể.
+<0239> Kajiyama-san điên cuồng bám theo, nhưng không kịp.
 // Kajiyama-san frantically tries to catch up, but he can't.
 
-<0240> Anh ấy chạy đến gần vạch vôi và sau đó đưa bóng vào theo một quỹ đạo thấp. Đồng đội nào đỡ được bóng thì sẽ chuyền tiếp .
+<0240> Onii-chan chạy đến gần vạch vôi và sau đó đưa bóng theo một quỹ đạo thấp. Đồng đội nào đỡ được bóng thì sẽ chuyền tiếp.
 // He runs close to the line and then centers the ball in a low trajectory. The teammates who catch up pick it up.
 
-<0241> Họ không bị theo kèm. chỉ còn mỗi thủ môn. Anh ấy sút mà không do dự!
+<0241> Họ không bị theo kèm. Chỉ còn mỗi thủ môn. Anh ấy không do dự thực hiện ngay cú sút!
 // They're free. Only the keeper is left. He shoots without hesitation!
 
-<0242> \ Nó vào rồi! Vào rồi...!
+<0242> \ Vào rồi! Ghi bàn...!
 // \ It's in! A goal...!
 
-<0243> Một giọng cao vang vọng khắp sân bóng.
+<0243> Tông giọng lảnh lót vang dậy khắp cầu trường.
 // A high-pitched metallic sound resonates across the field.
 
-<0244> Quả bóng chỉ còn cách vài centimeters nữa thôi và đập vào cột, bay trở lại không trung.
+<0244> Quả bóng chỉ còn cách vài centimét nữa thôi thì dội xà, bay ngược lên trên.
 // The ball was only a few centimeters away and hit the bar, flying back up into the air.
 
 <0245> Không thể nào...
 // No way...
 
-<0246> Âm thanh tàn nhẫn đó vang lại liên tục trong tai mình.
+<0246> Âm thanh phũ phàng đó réo rắt liên tục trong tai mình.
 // That ruthless sound echoes in my ears.
 
-<0247> THủ môn đang di chuyển để bắt bóng. Một khi đã bắt dính bóng, mọi thứ sẽ kết thúc...
+<0247> Thủ môn di chuyển để bắt bóng. Một khi anh ta bắt dính bóng, mọi thứ sẽ kết thúc...
 // The keeper moves to catch the ball. Once he catches it, it's over...
 
-<0248> Raaaaaaaaaagh!
+<0248> Raaaaaaaaaaa!
 // Raaaaaaaaaagh!
 
-<0249> Gaaaaaaaaaah!
+<0249> Gaaaaaaaaaaa!
 // Gaaaaaaaaaah!
 
-<0250> Hai bóng người lao xuống ầm ầm như một trận tuyết lở.
+<0250> Hai bóng người hùng hổ lao tới như một cơn sóng dữ.
 // Two figures come rumbling down like an avalanche.
 
-<0251> Đập vai vào nhau, cả hai cùng nhảy lên. Màu áo tím nhạt với số 2, và sọc áo vàng và xanh biếc của số 9.
+<0251> Đập vai vào nhau, cả hai cùng nhảy lên. Màu áo tím nhạt mang số 2, và áo sọc vàng xanh của số 9.
 // Bumping shoulders, they both jump up. The light purple jersey with the number 2, and the yellow and navy blue jersey with the number 9.
 
 <0252> Tiếng hò reo vang dội từ băng ghế dự bị bên phía Kouyou.
 // Cheers resound from the bench on Kouyou's side.
 
-<0253> Anh ấy chạm bóng bằng đầu, và quả bóng bay qua thủ thành, dính cahwjt vào lưới.
+<0253> Anh ấy chạm bóng bằng đầu, và quả bóng bay qua thủ thành, dính chặt vào lưới.
 // He connects with the ball using his head, and the ball flies past the keeper, sticking to the net.
 
 <0254> Onii-chan ghi bàn rồi.
 // Onii-chan made a goal.
 
-<0255> Được rồi!!
+<0255> Phải thế chứ!!
 // All right!!
 
-<0256> Cạnh đó là Kajiyama-san đứng thẫn thờ, bóng dáng nhỏ bé cảu hắn chạy về.
+<0256> Bỏ lại Kajiyama-san đứng thẫn thờ, thân người mảnh khảnh của onii-chan chạy loạn lên trong vui sướng.
 // Next to the dumbfounded Kajiyama-san , his tiny figure runs about.
 
-<0257> Anh ấy đã nắm chắc trong tay chiến thắng.
+<0257> Anh ấy đã cầm chắc trong tay chiến thắng.
 // He makes a tight fist in victory.
 
-<0258> \ Anh ẩy nhảy bẫng lên và chỉ tay lên trời. Mình thấy tự hào khi chứng kiến anh ấy được đồng đội chào đón trở lại.
+<0258> \ Onii-chan nhảy cẫng và chỉ tay lên trời. Mình thấy tự hào khi chứng kiến anh ấy được đồng đội chào đón như người hùng.
 // \ He jumps up and points at the sky. I feel so proud at the sight of him being welcomed by his teammates.
 
-<0259> Hàng phòng thủ của trường Dai-Ichi trở nên rối loạn sau khi bị gỡ một bàn.
+<0259> Hàng phòng ngự của trường Dai-Ichi trở nên rối loạn sau khi bị gỡ một bàn.
 // The defensive line of Dai-Ichi Middle School is thrown into confusion after that single point.
 
 <0260> \ Onii-chan tận dùng cơ hội đó. Anh ấy dẫn bóng và sút, ghi thêm một bàn thắng nữa.
 // \ Onii-chan takes advantage of that. He dribbles the ball and shoots, scoring another point.
 
-<0261> Với sự tập chung của hầng phòng ngự, trường câp 2 Kouyou đã giành chiến thắng với tỉ số 2-1.
+<0261> Nhờ hàng thủ chơi chắc chắn, trường cấp 2 Kouyou đã giành chiến thắng với tỉ số 2-1.
 // With the help of their own defense, Kouyou Middle School wins the game 2-1.
 
-<0262> Tiếng còi cất lên kết thúc trận đấu. Hai đội đứng thành hàng đối diện với nhau.
+<0262> Tiếng còi mãn cuộc cất lên. Hai đội đứng thành hàng đối mặt nhau.
 // The blow of the whistle marks the end of the game. The teams line up to face each other.
 
-<0263> Trong khi hai bên đang chúc mừng nhau vì một trận đấu hay, Onii-chan và Kajiyama-san nhìn về phía nhau.
+<0263> Trong lúc đôi bên chúc tụng đối phương vì một trận đấu hay, onii-chan và Kajiyama-san nhìn chòng chọc vào nhau.
 // While everyone is congratulating each other for the good game, Onii-chan and Kajiyama-san stare each other down.
 
-<0264> Đó là một đối một. Lần sau tôi sẽ không thua đâu.
+<0264> Một chọi một ra trò nhỉ. Lần sau tao sẽ không thua đâu.
 // That's one to one. I won't lose next time.
 
-<0265> Kajiyama-san chìa tay ra mãn nguyện.
+<0265> Kajiyama-san chìa tay ra với vẻ mãn nguyện.
 // Kajiyama-san holds out his hand with a sort of satisfied expression.
 
-<0266> Heh. Lần sau tôi sẽ lại thắng.
+<0266> Hê. Lần sau tao sẽ lại thắng thôi.
 // Heh. I'll win again next time.
 
 <0267> Onii-chan cũng cười.
 // Onii-chan smiles, too.
 
-<0268> Họ bắt tay khi mình đang nhìn, cũng mỉm cười.
+<0268> Họ bắt tay nhau trước ánh mắt và nụ cười của mình.
 // They shake hands as I watch on, also smiling.
 
-<0269> Anh ấy ngốc, vô trách nhiệm, và đơn giản.
+<0269> Tuy vừa ngốc, vừa vô trách nhiệm, đầu óc lại đơn giản...
 // He's stupid, irresponsible, and simple-minded.
 
-<0270> \ Nhưng anh ấy đáng tin cậy .
+<0270> \ song đó là người anh trai mà mình có thể nương tựa.
 // \ But he's dependable.
 
-<0271> Mình tiếp tục nhìn về phía Onii-chan.
+<0271> Mình ngắm nhìn onii-chan mãi không rời.
 // I continue looking at my Onii-chan.
 

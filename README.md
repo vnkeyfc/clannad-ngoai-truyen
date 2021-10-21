@@ -2,7 +2,7 @@
 Đánh nhanh thắng nhanh
 
 
-kyryu(Kyryu97)(thg 11 sẽ tái xuất giang hồ) :  3 4 9(xong) 12
+kyryu(Kyryu97)(thg 11 sẽ tái xuất giang hồ) :  3(đang dịch) 4 9(xong) 12
 
 schro(yukawacool): 13(xong) 14(xong tuốt) 15(tuần sau sẽ xuất chinh) 16
 

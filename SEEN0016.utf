@@ -11,9 +11,10 @@
 // Beneath the cloudless sky, I shade myself with the parasol Mommy let me borrow.
 
 <0003> Ou allez-vous a seul?\r
-// Ou allez-vous a seul?\r
-
   \ (Where are you going by yourself, little lady?)
+// Ou allez-vous a seul?\r
+//   \ (Where are you going by yourself, little lady?)
+
 <0004> An old man on a large tractor calls to me.
 // An old man on a large tractor calls to me.
 
@@ -24,9 +25,10 @@
 // I panic a little, but then I say the words I just learned in a clear voice.
 
 <0007> Il va au gisement de lavande.\r
-// Il va au gisement de lavande.\r
-
   \ (I'm going to the lavender field.)
+// Il va au gisement de lavande.\r
+//   \ (I'm going to the lavender field.)
+
 <0008> The old man laughs and lets me ride on the tractor.
 // The old man laughs and lets me ride on the tractor.
 
@@ -277,9 +279,10 @@
 // I drink a little. It's sweet, but very delicious.
 
 <0091> E tasty muito!\r
-// E tasty muito!\r
-
   \ (It's very good!)
+// E tasty muito!\r
+\\   \ (It's very good!)
+
 <0092> I don't know if they understand me, but they're all happy.
 // I don't know if they understand me, but they're all happy.
 

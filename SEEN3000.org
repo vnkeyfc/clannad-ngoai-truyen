@@ -1,0 +1,555 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN3000.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+CtrlKeySkipOff
+gosub @50
+gosub @42
+gosub @43
+grpDisplay(0, 0)
+objCopyFgToBg(50)
+OBJFRONTCHILDSETS_BTNPUSHKEEP(50, 60, 66, 1)
+select_btnobjinit
+select_btnobjstart
+
+  @1
+intC[0 + 10] = ScreenMode
+goto_unless(intC[300] != intC[0 + 10]) @6
+goto_case(intC[0 + 10]){ 0: @2; 1: @3; _: @4 }
+
+  @2
+intC[300] = 0
+OBJFRONTCHILDSET_PATNO(50, 1, 3)
+OBJFRONTCHILDSET_PATNO(50, 2, 0)
+goto @5
+
+  @3
+intC[300] = 1
+OBJFRONTCHILDSET_PATNO(50, 1, 0)
+OBJFRONTCHILDSET_PATNO(50, 2, 3)
+goto @5
+
+  @4
+intC[300] = intC[0 + 10]
+OBJFRONTCHILDSET_PATNO(50, 1, 0)
+OBJFRONTCHILDSET_PATNO(50, 2, 0)
+goto @5
+
+  @5
+
+  @6
+intL[0] = ReadExFrame(0)
+intL[0] += 200
+goto_unless(intC[300 + 3] > 10 && !intC[300 + 4]) @7
+OBJFRONTCHILDSET_MOJI(50, 44, strS[intL[0]])
+goto @8
+
+  @7
+OBJFRONTCHILDSET_MOJI(50, 44, strS[200])
+
+  @8
+intC[90 + 0] = select_btnobjnow_push
+intC[90 + 1] = select_btnobjnow_decide
+goto_unless(intC[90 + 0] >= 60 || intC[90 + 0] <= 66) @20
+goto_case(intC[90 + 0]){ 60: @9; 61: @11; 62: @13; 63: @15; 64: @16; 65: @17; 66: @18; _: @19 }
+
+  @9
+goto_unless(!intC[300 + 4]) @10
+gosub @52
+
+  @10
+goto @19
+
+  @11
+goto_unless(intC[300 + 9] == 1) @12
+gosub @60
+
+  @12
+goto @19
+
+  @13
+goto_unless(intC[300 + 11] == 1) @14
+gosub @60
+
+  @14
+goto @19
+
+  @15
+gosub @66
+goto @19
+
+  @16
+gosub @66
+goto @19
+
+  @17
+gosub @66
+goto @19
+
+  @18
+gosub @66
+goto @19
+
+  @19
+
+  @20
+goto_unless(intC[90 + 1] > 0) @39
+goto_case(intC[90 + 1]){ 1: @21; 2: @22; 3: @23; 42: @24; 14: @25; 7: @26; 8: @27; 9: @28; 10: @29; 11: @30; 20: @31; 21: @32; 22: @33; 23: @34; 24: @35; 41: @36; 35: @37; _: @38 }
+
+  @21
+sePlay(1)
+intC[300] = 0
+SetScreenMode(0)
+OBJFRONTCHILDSET_PATNO(50, 1, 3)
+OBJFRONTCHILDSET_PATNO(50, 2, 0)
+goto @38
+
+  @22
+sePlay(1)
+intC[300] = 1
+SetScreenMode(1)
+OBJFRONTCHILDSET_PATNO(50, 1, 0)
+OBJFRONTCHILDSET_PATNO(50, 2, 3)
+goto @38
+
+  @23
+sePlay(1)
+OPEN_FULLSCREEN_SETTING_WINDOW
+goto @38
+
+  @24
+sePlay(1)
+gosub @59
+goto @38
+
+  @25
+sePlay(1)
+gosub @58
+goto @38
+
+  @26
+sePlay(6)
+gosub @51
+goto @38
+
+  @27
+sePlay(1)
+gosub @57
+goto @38
+
+  @28
+sePlay(1)
+InvokeSyscom(9)
+goto @38
+
+  @29
+sePlay(6)
+OBJFRONTCHILDSET_PATNO(50, 10, intC[300 + 9] * 3)
+intC[300 + 9] = abs(intC[300 + 9] - 1)
+SetBgmEnabled(intC[300 + 9])
+OBJFRONTCHILDSET_PATNO(50, 10, intC[300 + 9] * 3)
+goto @38
+
+  @30
+OBJFRONTCHILDSET_PATNO(50, 11, intC[300 + 11] * 3)
+intC[300 + 11] = abs(intC[300 + 11] - 1)
+SetSeEnabled(intC[300 + 11])
+sePlay(6)
+OBJFRONTCHILDSET_PATNO(50, 11, intC[300 + 11] * 3)
+goto @38
+
+  @31
+sePlay(6)
+intC[300 + 14] = abs(intC[300 + 14] - 1)
+SetCursorMono(intC[300 + 14])
+OBJFRONTCHILDSET_PATNO(50, 20, intC[300 + 14] * 3)
+goto @38
+
+  @32
+sePlay(6)
+intC[300 + 15] = abs(intC[300 + 15] - 1)
+SetLowPriority(intC[300 + 15])
+OBJFRONTCHILDSET_PATNO(50, 21, intC[300 + 15] * 3)
+goto @38
+
+  @33
+sePlay(6)
+intC[300 + 16] = abs(intC[300 + 16] - 1)
+SetReduceDistortion(intC[300 + 16])
+OBJFRONTCHILDSET_PATNO(50, 22, intC[300 + 16] * 3)
+goto @38
+
+  @34
+sePlay(6)
+intC[300 + 20] = abs(intC[300 + 20] - 1)
+SetSkipAnimations(intC[300 + 20])
+OBJFRONTCHILDSET_PATNO(50, 23, intC[300 + 20] * 3)
+goto @38
+
+  @35
+sePlay(6)
+intC[300 + 18] = abs(intC[300 + 18] - 1)
+SET_SYSTEM_FLAG_WAIPKEYJUMP(intC[300 + 18])
+OBJFRONTCHILDSET_PATNO(50, 24, intC[300 + 18] * 3)
+goto @38
+
+  @36
+sePlay(6)
+intC[300 + 28] = abs(intC[300 + 28] - 1)
+SetWindowAttrF(intC[300 + 28])
+OBJFRONTCHILDSET_PATNO(50, 41, intC[300 + 28] * 3)
+goto @38
+
+  @37
+sePlay(2)
+goto @41
+goto @38
+
+  @38
+select_btnobjinit
+
+  @39
+goto_unless(intC[90 + 1] == -1) @40
+sePlay(2)
+goto @41
+
+  @40
+refresh
+goto @1
+
+  @41
+select_btnobjend
+CtrlKeySkipOn
+objWipeCopyOff(50)
+OBJBACKFREE(50)
+rtl
+
+  @42
+intC[300] = ScreenMode
+intC[300 + 1] = ShowObject1
+intC[300 + 2] = SkipAnimations
+intC[300 + 3] = MessageSpeed
+intC[300 + 4] = MessageNoWait
+intC[300 + 5] = BgmVolMod
+intC[300 + 6] = PcmVolMod
+intC[300 + 7] = SeVolMod
+intC[300 + 8] = KoeVolMod
+intC[300 + 9] = BgmEnabled
+intC[300 + 10] = PcmEnabled
+intC[300 + 11] = SeEnabled
+intC[300 + 12] = KoeEnabled
+intC[300 + 13] = SoundQuality
+intC[300 + 14] = CursorMono
+intC[300 + 15] = LowPriority
+intC[300 + 16] = ReduceDistortion
+intC[300 + 20] = SkipAnimations
+intC[300 + 18] = GET_SYSTEM_FLAG_WAIPKEYJUMP
+intC[300 + 22] = KoeMode
+intC[300 + 24] = WindowAttrR
+intC[300 + 25] = WindowAttrG
+intC[300 + 26] = WindowAttrB
+intC[300 + 27] = WindowAttrA
+intC[300 + 28] = WindowAttrF
+ret
+
+  @43
+OBJBACKCHILDSET_BTN(50, 1, 1, -1)
+OBJBACKCHILDSET_BTN(50, 2, 1, -1)
+OBJBACKCHILDSET_BTN(50, 3, 1, -1)
+goto_case(intC[300]){ 0: @44; 1: @45; _: @46 }
+
+  @44
+OBJBACKCHILDSET_PATNO(50, 1, 3)
+OBJBACKCHILDSET_PATNO(50, 2, 0)
+goto @47
+
+  @45
+OBJBACKCHILDSET_PATNO(50, 1, 0)
+OBJBACKCHILDSET_PATNO(50, 2, 3)
+goto @47
+
+  @46
+OBJBACKCHILDSET_PATNO(50, 1, 0)
+OBJBACKCHILDSET_PATNO(50, 2, 0)
+goto @47
+
+  @47
+OBJBACKCHILDSET_BTN(50, 7, 3, 6)
+OBJBACKCHILDSET_PATNO(50, 7, intC[300 + 4] * 3)
+OBJBACKCHILDSET_BTN(50, 60, 1, -1)
+OBJBACKCHILDSET_BTN(50, 8, 1, 1)
+OBJBACKCHILDSET_BTN(50, 9, 1, 1)
+OBJBACKCHILDSET_BTN(50, 61, 1, -1)
+OBJBACKCHILDSET_PATNO(50, 61, 0)
+OBJBACKCHILDSET_BTN(50, 62, 1, -1)
+OBJBACKCHILDSET_PATNO(50, 62, 0)
+OBJBACKCHILDSET_BTN(50, 63, 1, -1)
+OBJBACKCHILDSET_PATNO(50, 63, 0)
+OBJBACKCHILDSET_BTN(50, 64, 1, -1)
+OBJBACKCHILDSET_PATNO(50, 64, 0)
+OBJBACKCHILDSET_BTN(50, 65, 1, -1)
+OBJBACKCHILDSET_PATNO(50, 65, 0)
+OBJBACKCHILDSET_BTN(50, 66, 1, -1)
+OBJBACKCHILDSET_PATNO(50, 66, 0)
+intC[300 + 29] = index_series(intC[300 + 3], 0, 0, {10, 100, 255})
+intC[300 + 29] = abs(intC[300 + 29] - 255)
+OBJBACKCHILDSET_REPPOSX(50, 60, 0, intC[300 + 29])
+OBJBACKCHILDSET_REPPOSX(50, 61, 0, intC[300 + 5])
+OBJBACKCHILDSET_REPPOSX(50, 62, 0, intC[300 + 7])
+OBJBACKCHILDSET_REPPOSX(50, 63, 0, intC[300 + 24])
+OBJBACKCHILDSET_REPPOSX(50, 64, 0, intC[300 + 25])
+OBJBACKCHILDSET_REPPOSX(50, 65, 0, intC[300 + 26])
+OBJBACKCHILDSET_REPPOSX(50, 66, 0, intC[300 + 27])
+goto_unless(!intC[300 + 9]) @48
+OBJBACKCHILDSET_PATNO(50, 10, 3)
+
+  @48
+goto_unless(!intC[300 + 11]) @49
+OBJBACKCHILDSET_PATNO(50, 11, 3)
+
+  @49
+OBJBACKCHILDSET_BTN(50, 20, 3, 6)
+OBJBACKCHILDSET_PATNO(50, 20, intC[300 + 14] * 3)
+OBJBACKCHILDSET_BTN(50, 21, 3, 6)
+OBJBACKCHILDSET_PATNO(50, 21, intC[300 + 15] * 3)
+OBJBACKCHILDSET_BTN(50, 22, 3, 6)
+OBJBACKCHILDSET_PATNO(50, 22, intC[300 + 16] * 3)
+OBJBACKCHILDSET_BTN(50, 23, 3, 6)
+OBJBACKCHILDSET_PATNO(50, 23, intC[300 + 20] * 3)
+OBJBACKCHILDSET_BTN(50, 24, 3, 6)
+OBJBACKCHILDSET_PATNO(50, 24, intC[300 + 18] * 3)
+OBJBACKCHILDSET_BTN(50, 41, 3, 6)
+OBJBACKCHILDSET_PATNO(50, 41, intC[300 + 28] * 3)
+OBJBACKCHILDSET_BTN(50, 42, 1, -1)
+OBJBACKCHILDSET_BTN(50, 14, 1, -1)
+OBJBACKCHILDSET_BTN(50, 35, 1, 2)
+OBJBACKCHILDSET_FILTER_MOD(50, 43, 1)
+// InitExFrameLoop(0, 36, 0, intC[300 + 3] * 50)
+InitExFrameLoop(0, 21, 0, intC[300 + 3] * 50)
+ret
+
+  @50
+OBJBACKCHILD(50, 100, '???', '???', 1)
+OBJBACKCHILDLOAD(50, 0, '_SYS_BASE', 1)
+OBJBACKCHILDLOAD(50, 1, '_SYS_BTN01', 1, 271, 145)
+OBJBACKCHILDLOAD(50, 2, '_SYS_BTN02', 1, 411, 145)
+OBJBACKCHILDLOAD(50, 3, '_SYS_BTN03', 1, 544, 143)
+OBJBACKCHILDLOAD(50, 14, '_SYS_INIT', 1, 499, 199)
+OBJBACKCHILDLOAD(50, 7, '_SYS_CHK', 1, 91, 446)
+OBJBACKCHILDLOAD(50, 8, '_SYS_INIT', 1, 499, 379)
+OBJBACKCHILDLOAD(50, 9, '_SYS_FONT', 1, 367, 379)
+OBJBACKCHILDLOAD(50, 20, '_SYS_CHK', 1, 675, 341)
+OBJBACKCHILDLOAD(50, 21, '_SYS_CHK', 1, 675, 397)
+OBJBACKCHILDLOAD(50, 22, '_SYS_CHK', 1, 675, 443)
+OBJBACKCHILDLOAD(50, 23, '_SYS_CHK', 1, 675, 369)
+OBJBACKCHILDLOAD(50, 24, '_SYS_CHK', 1, 675, 471)
+OBJBACKCHILDLOAD(50, 42, '_SYS_INIT', 1, 1083, 62)
+OBJBACKCHILDLOAD(50, 41, '_SYS_CHK', 1, 1038, 256)
+OBJBACKCHILDLOAD(50, 28, '_SYS_SL_U', 1, 297, 449)
+OBJBACKCHILDLOAD(50, 29, '_SYS_SL_U', 1, 297, 263)
+OBJBACKCHILDLOAD(50, 30, '_SYS_SL_U', 1, 297, 313)
+OBJBACKCHILDLOAD(50, 31, '_SYS_SL_U', 1, 881, 118)
+OBJBACKCHILDLOAD(50, 32, '_SYS_SL_U', 1, 881, 151)
+OBJBACKCHILDLOAD(50, 33, '_SYS_SL_U', 1, 881, 184)
+OBJBACKCHILDLOAD(50, 34, '_SYS_SL_U', 1, 881, 217)
+OBJBACKCHILDLOAD(50, 35, '_SYS_EXIT', 1, 1168, 664)
+OBJBACKCHILDLOAD(50, 60, '_SYS_SC00', 1, 297 + 2, 449 - 3)
+OBJBACKCHILDLOAD(50, 61, '_SYS_SC00', 1, 297 + 2, 263 - 3)
+OBJBACKCHILDLOAD(50, 62, '_SYS_SC00', 1, 297 + 2, 313 - 3)
+OBJBACKCHILDLOAD(50, 63, '_SYS_SC00', 1, 881 + 2, 118 - 3)
+OBJBACKCHILDLOAD(50, 64, '_SYS_SC00', 1, 881 + 2, 151 - 3)
+OBJBACKCHILDLOAD(50, 65, '_SYS_SC00', 1, 881 + 2, 184 - 3)
+OBJBACKCHILDLOAD(50, 66, '_SYS_SC00', 1, 881 + 2, 217 - 3)
+OBJBACKCHILDLOAD(50, 43, 'MN_CF_FILL00', 1, 70, 513)
+OBJBACKCHILDMOJI(50, 44, '', 1, 100, 550)
+OBJBACKCHILDSET_MOJIPARAM(50, 44, 30, 0, 0, 0, 0, 255, -1)
+strS[200] = 'гΜy lΒ vΖn bΓn mΠu.'
+strS[201] = 'гΜy lΒ vΖn bΓn mΠu'
+strS[202] = 'гΜy lΒ vΖn bΓn mΠ'
+strS[203] = 'гΜy lΒ vΖn bΓn m'
+strS[204] = 'гΜy lΒ vΖn bΓn '
+strS[205] = 'гΜy lΒ vΖn bΓn'
+strS[206] = 'гΜy lΒ vΖn bΓ'
+strS[207] = 'гΜy lΒ vΖn b'
+strS[208] = 'гΜy lΒ vΖn '
+strS[209] = 'гΜy lΒ vΖn'
+strS[210] = 'гΜy lΒ vΖ'
+strS[211] = 'гΜy lΒ v'
+strS[212] = 'гΜy lΒ '
+strS[213] = 'гΜy lΒ'
+strS[214] = 'гΜy l'
+strS[215] = 'гΜy '
+strS[216] = 'гΜy'
+strS[217] = 'гΜ'
+strS[218] = 'г'
+strS[219] = ''
+strS[220] = ''
+strS[221] = ''
+// strS[222] = ''
+// strS[223] = ''
+// strS[224] = ''
+// strS[225] = ''
+// strS[226] = ''
+// strS[227] = ''
+// strS[228] = ''
+// strS[229] = ''
+// strS[230] = ''
+// strS[231] = ''
+// strS[232] = ''
+// strS[233] = ''
+// strS[234] = ''
+// strS[235] = ''
+// strS[236] = ''
+ret
+
+  @51
+intC[300 + 4] = abs(intC[300 + 4] - 1)
+SetMessageNoWait(intC[300 + 4])
+OBJFRONTCHILDSET_PATNO(50, 7, intC[300 + 4] * 3)
+ret
+
+  @52
+GetCursorPos(intC[100], intC[100 + 1], intC[100 + 2], intC[100 + 3])
+GetDCPixel(intC[100], intC[100 + 1], 3, intC[100 + 4], intC[100 + 5], intC[100 + 6])
+intC[0] = OBJFRONTCHILDGET_REPPOSX(50, intC[90 + 0], 0)
+intC[0 + 1] = intC[100] - intC[0]
+
+  @53
+goto_unless(intC[100 + 2] == 1) @54
+GetCursorPos(intC[100], intC[100 + 1], intC[100 + 2], intC[100 + 3])
+GetDCPixel(intC[100], intC[100 + 1], 3, intC[100 + 4], intC[100 + 5], intC[100 + 6])
+intC[0] = intC[100] - intC[0 + 1]
+intC[300 + 29] = constrain(0, intC[0], 255)
+intC[300 + 3] = index_series(intC[300 + 29], 0, 100, {0, 255, 10})
+OBJFRONTCHILDSET_REPPOSX(50, intC[90 + 0], 0, intC[300 + 29])
+SetMessageSpeed(intC[300 + 3])
+refresh
+goto @53
+
+  @54
+goto_unless(intC[300 + 3] > 10 || !intC[300 + 4]) @55
+InitExFrameLoop(0, 36, 0, intC[300 + 3] * 50)
+goto @56
+
+  @55
+OBJFRONTCHILDSET_MOJI(50, 44, strS[200])
+
+  @56
+ret
+
+  @57
+intC[300 + 3] = DefMessageSpeed
+SetMessageSpeed(intC[300 + 3])
+intC[300 + 29] = index_series(intC[300 + 3], 0, 0, {10, 100, 255})
+intC[300 + 29] = abs(intC[300 + 29] - 255)
+OBJFRONTCHILDSET_REPPOSX(50, 60, 0, intC[300 + 29])
+intC[300 + 4] = DefMessageNoWait
+SetMessageNoWait(intC[300 + 4])
+OBJFRONTCHILDSET_PATNO(50, 7, intC[300 + 4] * 3)
+InitExFrameLoop(0, 36, 0, intC[300 + 3] * 50)
+ret
+
+  @58
+intC[300 + 5] = GET_SYSTEM_FLAG_DEFAULT_BGMVOLUME
+intC[300 + 7] = GET_SYSTEM_FLAG_DEFAULT_SEVOLUME
+intC[300 + 9] = GET_SYSTEM_FLAG_DEFAULT_BGMUSE
+intC[300 + 11] = GET_SYSTEM_FLAG_DEFAULT_SEUSE
+SetBgmVolMod(intC[300 + 5])
+SetSeVolMod(intC[300 + 7])
+SetBgmEnabled(intC[300 + 9])
+SetSeEnabled(intC[300 + 11])
+OBJFRONTCHILDSET_REPPOSX(50, 61, 0, intC[300 + 5])
+OBJFRONTCHILDSET_REPPOSX(50, 62, 0, intC[300 + 7])
+OBJFRONTCHILDSET_PATNO(50, 10, intC[300 + 9] * 3)
+OBJFRONTCHILDSET_PATNO(50, 11, intC[300 + 11] * 3)
+ret
+
+  @59
+DefWindowAttr(intC[300 + 24], intC[300 + 25], intC[300 + 26], intC[300 + 27], intC[300 + 28])
+SetWindowAttr(intC[300 + 24], intC[300 + 25], intC[300 + 26], intC[300 + 27], intC[300 + 28])
+OBJFRONTCHILDSET_REPPOSX(50, 63, 0, intC[300 + 24])
+OBJFRONTCHILDSET_REPPOSX(50, 64, 0, intC[300 + 25])
+OBJFRONTCHILDSET_REPPOSX(50, 65, 0, intC[300 + 26])
+OBJFRONTCHILDSET_REPPOSX(50, 66, 0, intC[300 + 27])
+OBJFRONTCHILDSET_PATNO(50, 41, intC[300 + 28] * 3)
+ret
+
+  @60
+GetCursorPos(intC[100], intC[100 + 1], intC[100 + 2], intC[100 + 3])
+GetDCPixel(intC[100], intC[100 + 1], 3, intC[100 + 4], intC[100 + 5], intC[100 + 6])
+intC[0] = OBJFRONTCHILDGET_REPPOSX(50, intC[90 + 0], 0)
+intC[0 + 1] = intC[100] - intC[0]
+
+  @61
+goto_unless(intC[100 + 2] == 1) @65
+GetCursorPos(intC[100], intC[100 + 1], intC[100 + 2], intC[100 + 3])
+GetDCPixel(intC[100], intC[100 + 1], 3, intC[100 + 4], intC[100 + 5], intC[100 + 6])
+intC[0] = intC[100] - intC[0 + 1]
+intC[0 + 2] = index_series(intC[0], 0, 0, {0, 255, 255})
+OBJFRONTCHILDSET_REPPOSX(50, intC[90 + 0], 0, intC[0 + 2])
+goto_case(intC[90 + 0]){ 61: @62; 62: @63; _: @64 }
+
+  @62
+SetBgmVolMod(intC[0 + 2])
+intC[300 + 5] = intC[0 + 2]
+goto @64
+
+  @63
+SetSeVolMod(intC[0 + 2])
+intC[300 + 7] = intC[0 + 2]
+goto @64
+
+  @64
+refresh
+goto @61
+
+  @65
+ret
+
+  @66
+GetCursorPos(intC[100], intC[100 + 1], intC[100 + 2], intC[100 + 3])
+GetDCPixel(intC[100], intC[100 + 1], 3, intC[100 + 4], intC[100 + 5], intC[100 + 6])
+intC[0] = OBJFRONTCHILDGET_REPPOSX(50, intC[90 + 0], 0)
+intC[0 + 1] = intC[100] - intC[0]
+
+  @67
+goto_unless(intC[100 + 2] == 1) @73
+GetCursorPos(intC[100], intC[100 + 1], intC[100 + 2], intC[100 + 3])
+GetDCPixel(intC[100], intC[100 + 1], 3, intC[100 + 4], intC[100 + 5], intC[100 + 6])
+intC[0] = intC[100] - intC[0 + 1]
+intC[0 + 2] = index_series(intC[0], 0, 0, {0, 255, 255})
+OBJFRONTCHILDSET_REPPOSX(50, intC[90 + 0], 0, intC[0 + 2])
+goto_case(intC[90 + 0]){ 63: @68; 64: @69; 65: @70; 66: @71; _: @72 }
+
+  @68
+SetWindowAttrR(intC[0 + 2])
+intC[300 + 24] = intC[0 + 2]
+goto @72
+
+  @69
+SetWindowAttrG(intC[0 + 2])
+intC[300 + 25] = intC[0 + 2]
+goto @72
+
+  @70
+SetWindowAttrB(intC[0 + 2])
+intC[300 + 26] = intC[0 + 2]
+goto @72
+
+  @71
+SetWindowAttrA(intC[0 + 2])
+intC[300 + 27] = intC[0 + 2]
+goto @72
+
+  @72
+refresh
+goto @67
+
+  @73
+ret
+eof
+halt

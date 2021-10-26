@@ -7,4 +7,4 @@ schro(yukawacool): 13(xong) 14(xong tuốt) 15(đang) 16
 
 Nuttela và Lee(Arandomguyoninternet) : 1(xong) 2(xong) 5(xong) 6(xong) 7(xong) 8 10 11
 
-Cách tìm nhanh các line chưa dịch bằng regex: <....> (.*)\[\n\r]*\\/\\/ \1
+Cách tìm nhanh các line chưa dịch bằng regex: <....>(.\*)\[\n\r]*\\/\\/\1

@@ -1,0 +1,463 @@
+{-# cp utf-8 #- Disassembled with Kprl 1.45 -}
+
+#file 'SEEN2000.TXT'
+
+#kidoku_type 2
+
+#entrypoint 000 // Z00
+
+
+#entrypoint 001 // Z01
+
+intL[0] = intL[0] * -1
+strS[0 + 32] = strK[0]
+objBgOfFile(1, strS[0 + 32], 1, 0, intL[0])
+intF[4] = 300
+WAIP_TIME(0, 0, intF[4])
+wait(intF[4])
+rtl
+
+#entrypoint 002 // Z02
+
+intC[1] = gosub_with(intL[1]) @14
+bgmPlay(strK[0])
+rtl
+
+#entrypoint 003 // Z03
+
+intL[0] = intL[0] * -1
+intL[1] = intL[1] * -1
+goto_case(intL[2]){ 1: @1; 2: @2; 3: @3; 4: @4; 5: @5; 8: @6; _: @7 }
+
+  @1
+intL[3] = 2000
+goto @7
+
+  @2
+intL[3] = 4000
+goto @7
+
+  @3
+intL[3] = 6000
+goto @7
+
+  @4
+intL[3] = 8000
+goto @7
+
+  @5
+intL[3] = 10000
+goto @7
+
+  @6
+intL[3] = 16000
+goto @7
+
+  @7
+OBJFRONTEVE_POSY(1, intL[1], intL[3], 0, 0)
+rtl
+
+#entrypoint 004 // Z04
+
+rtl
+
+#entrypoint 005 // Z05
+
+goto_unless(intG[20] == 1) @8
+pause
+rtl
+
+  @8
+goto_unless(!intL[0]) @9
+bgmWait
+rtl
+
+  @9
+intL[0] = gosub_with(intL[0]) @14
+intL[0] = intL[0] - intC[1]
+FlushClick
+
+  @10
+GetCursorPos(intF[0], intF[1], intF[2], intF[3])
+goto_unless(intF[3] == 2) @11
+CANCELCALL
+
+  @11
+intL[1] = bgmTimer
+intL[2] = bgmPlaying
+goto_unless(intL[1] >= intL[0] || !intL[2]) @12
+goto @13
+
+  @12
+refresh
+goto @10
+
+  @13
+rtl
+
+#entrypoint 007 // Z07
+
+bgmStop3
+//intC[0 + 10] = OBJFRONTGET_POSY(1)
+//CALL_PUSH(0)
+//objOfFile(5, strS[0 + 32], 1, 0, intC[0 + 10])
+//objWipeCopyOn(5)
+//farcall(1003, 0)
+//CALL_POP(1, 8)
+
+intC[0 + 10] = OBJFRONTGET_POSY(1)
+objOfFile(5, strS[0 + 32], 1, 0, intC[0 + 10])
+farcall(2000, 21)
+
+bgmStop4
+rtlCancel
+
+  @14
+intL[1] = intL[0] / 10000
+intL[2] = intL[0] % 10000
+intL[0] = intL[1] * 6000 + intL[2]
+intL[0] = intL[0] * 10
+ret_with(intL[0])
+
+  @15
+
+#entrypoint 020 // Z20
+
+farcall_with(2000, 1, 'AKIO4_1', 614, 0, 0)
+farcall_with(2000, 3, 614, 0, 5)
+pause
+goto @15
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+#const 
+	BTN_CHAPTERS = 1,
+	BTN_WATCH_CG = 2,
+	BTN_SUSPEND_STORY = 3,
+	BTN_SETTING = 4,
+	BTN_CANCEL = 5
+	
+#const 
+	OBJ_R_MENU_CHAPTERS_BG_ID = 16,
+	OBJ_R_MENU_ID = 18,
+	OBJ_R_MENU_CHAPTERS_ID = 17
+	
+#sdefine
+	gMenuSelectType = intC[90],
+	gMenuChaptersSelectIdx = intC[91],
+	gCursorX = intF[1200],
+	gCursorY = intF[1201],
+	gMouseLeft = intF[1202],
+	gMouseRight = intF[1203],
+	gObjX = intA[1000],
+	gObjY = intA[1001],
+	gObjWidth = intA[1002],
+	gObjHeight = intA[1003],
+	gActiveSoundOnHover = intC[800]
+
+
+#inline log(msg):
+	__DebugMessage(msg)
+;
+
+#inline __init_select(grp=1):
+	select_btnobjinit(grp)
+	select_btnobjend
+	select_btnobjstart(grp)
+;
+
+#inline __init_r_menu ():
+	strK[0] = 'Cmenu_'
+	strK[1] = itoa(intD[0], 2)
+	strK[0] += strK[1]
+	strS[20] = strK[0]
+	
+	OBJBACKCHILD(20, 10, strS[20], '?', 1)
+	
+	objClear(OBJ_R_MENU_ID)
+	OBJFRONTCHILD(OBJ_R_MENU_ID, 6, '?', '?')
+	OBJFRONTCHILDINITPARAM(OBJ_R_MENU_ID, 0)
+	objPattNo(OBJ_R_MENU_ID, 0)
+	objShow(OBJ_R_MENU_ID, 1)
+	
+	// Chapters
+	OBJFRONTCHILDLOAD(OBJ_R_MENU_ID, 1, '_SYS_R_01', 1, 835, 140)
+	OBJFRONTCHILDSET_PATNO(OBJ_R_MENU_ID, 1, 0)
+	OBJFRONTCHILDSET_DISP(OBJ_R_MENU_ID, 1, 1)
+	
+	// Watch CG
+	OBJFRONTCHILDLOAD(OBJ_R_MENU_ID, 2, '_SYS_R_02', 1, 845, 195)
+	OBJFRONTCHILDSET_PATNO(OBJ_R_MENU_ID, 2, 0)
+	OBJFRONTCHILDSET_DISP(OBJ_R_MENU_ID, 2, 1)
+	
+	// Suspend the story
+	OBJFRONTCHILDLOAD(OBJ_R_MENU_ID, 3, '_SYS_R_03', 1, 855, 250)
+	OBJFRONTCHILDSET_PATNO(OBJ_R_MENU_ID, 3, 0)
+	OBJFRONTCHILDSET_DISP(OBJ_R_MENU_ID, 3, 1)
+	
+	// Setting
+	OBJFRONTCHILDLOAD(OBJ_R_MENU_ID, 4, '_SYS_R_04', 1, 865, 305)
+	OBJFRONTCHILDSET_PATNO(OBJ_R_MENU_ID, 4, 0)
+	OBJFRONTCHILDSET_DISP(OBJ_R_MENU_ID, 4, 1)
+	
+	// Cancel
+	OBJFRONTCHILDLOAD(OBJ_R_MENU_ID, 5, '_SYS_R_05', 1, 875, 360)
+	OBJFRONTCHILDSET_PATNO(OBJ_R_MENU_ID, 5, 0)
+	OBJFRONTCHILDSET_DISP(OBJ_R_MENU_ID, 5, 1)
+
+	// Buttons
+	OBJFRONTCHILDSET_BTN(OBJ_R_MENU_ID, 1, 1, 0, 1, 1)
+	OBJFRONTCHILDSET_BTN(OBJ_R_MENU_ID, 2, 1, 0, 1, 2)
+	OBJFRONTCHILDSET_BTN(OBJ_R_MENU_ID, 3, 1, 0, 1, 3)
+	OBJFRONTCHILDSET_BTN(OBJ_R_MENU_ID, 4, 1, 0, 1, 4)
+	OBJFRONTCHILDSET_BTN(OBJ_R_MENU_ID, 5, 1, 0, 1, 5)
+	
+	__init_select()
+	gMenuSelectType = 0
+	
+	refresh
+;
+
+
+#inline __r_menu_clear_obj ():
+	OBJFRONTFREE(OBJ_R_MENU_ID)
+;
+
+#inline __r_menu_chapters_clear_obj ():
+	OBJFRONTFREE(OBJ_R_MENU_CHAPTERS_ID)
+	OBJFRONTFREE(OBJ_R_MENU_CHAPTERS_BG_ID)
+;
+
+
+#inline __r_menu_chapters_load ():
+	#sdefine chapterCount = intL[10], 
+		episode = intD[0], 
+		imgNamePrefix = strK[0],
+		imgCh1 = strS[0],
+		imgCh2 = strS[1],
+		imgCh3 = strS[2],
+		imgCh4 = strS[3],
+		imgCh5 = strS[4],
+		imgCh6 = strS[5],
+		imgChTitle = strS[6]
+		
+	
+	// Init array position x of chapter images.
+	setrng(intL[0], chapterCount)
+	
+	// Set position x
+	case episode
+	of 9
+		chapterCount = 3
+		setarray(intL[0], 335, 540, 745)
+		break
+	of 1
+	of 4
+	of 12
+	of 15
+		chapterCount = 4
+		setarray(intL[0], 232, 437, 642, 847)
+		break
+	of 3
+	of 5
+	of 6
+	of 8
+	of 10
+	of 11
+		chapterCount = 5
+		setarray(intL[0], 130, 335, 540, 745, 950)
+		break
+	of 2
+	of 7
+	of 13
+	of 14
+	of 16
+		chapterCount = 6
+		setarray(intL[0], 27, 232, 437, 642, 847, 1052)
+		break
+	
+	other
+		if chapterCount == 1:
+			setarray(intL[0], 540)
+		;
+		else:
+			setarray(intL[0], 437, 642)
+		;
+		break
+	ecase
+	
+	imgNamePrefix = 'CPS_' + itoa(episode, 2)
+	imgCh1 = imgNamePrefix + '_01'
+	imgCh2 = imgNamePrefix + '_02'
+	imgCh3 = imgNamePrefix + '_03'
+	imgCh4 = imgNamePrefix + '_04'
+	imgCh5 = imgNamePrefix + '_05'
+	imgCh6 = imgNamePrefix + '_06'
+	imgChTitle = 'CPM_' + itoa(episode, 2)
+	
+	objClear(OBJ_R_MENU_CHAPTERS_ID)
+	OBJFRONTFREE(OBJ_R_MENU_CHAPTERS_ID)
+	
+	objClear(OBJ_R_MENU_CHAPTERS_BG_ID)
+	OBJFRONTFREE(OBJ_R_MENU_CHAPTERS_BG_ID)
+	
+	OBJFRONTCHILD(OBJ_R_MENU_CHAPTERS_ID, 15, '?', '?')
+	OBJFRONTCHILDINITPARAM(OBJ_R_MENU_CHAPTERS_ID, 0)
+	objPattNo(OBJ_R_MENU_CHAPTERS_ID, 0)
+	objShow(OBJ_R_MENU_CHAPTERS_ID, 1)
+	
+	while chapterCount > 0:
+		OBJFRONTCHILDLOAD(OBJ_R_MENU_CHAPTERS_ID, chapterCount, strS[chapterCount - 1], 1, intL[chapterCount - 1], 492)
+		OBJFRONTCHILDSET_BTN(OBJ_R_MENU_CHAPTERS_ID, chapterCount, 2, 0, 1, chapterCount)
+		chapterCount -= 1
+	;
+	
+	OBJFRONTCHILDLOAD(OBJ_R_MENU_CHAPTERS_ID, 8, 'CPM_99', 1, 0, 608)
+	OBJFRONTCHILDLOAD(OBJ_R_MENU_CHAPTERS_ID, 9, 'CPM_00', 1, 476, 458)
+	OBJFRONTCHILDLOAD(OBJ_R_MENU_CHAPTERS_ID, 10, imgChTitle, 1, 0, 608, -1)
+	
+	// BG
+	OBJFRONTCHILD(OBJ_R_MENU_CHAPTERS_BG_ID, 2, '?', '?')
+	OBJFRONTCHILDINITPARAM(OBJ_R_MENU_CHAPTERS_BG_ID, 0)
+	objPattNo(OBJ_R_MENU_CHAPTERS_BG_ID, 0)
+	objShow(OBJ_R_MENU_CHAPTERS_BG_ID, 1)
+	OBJFRONTCHILDLOAD(OBJ_R_MENU_CHAPTERS_BG_ID, 1, 'CPS_BG', 1, 0, 0)
+	//objBgOfFile(OBJ_R_MENU_CHAPTERS_ID, 'CPS_BG', 1, 0, 0)
+	
+	CCOM_MESSAGEWINDOW_OFF
+	refresh
+;
+
+
+#inline __handle_select_chapters_page():
+	__r_menu_chapters_load ()
+	__init_select()
+	
+	// Handle choice.
+	gMenuChaptersSelectIdx = 0
+	while gMenuChaptersSelectIdx != -1:
+		intC[0] = select_btnobjnow_hit
+		gMenuChaptersSelectIdx = select_btnobjnow_decide
+		
+		// Chapter title
+		if intC[0] >= 0:
+			OBJFRONTCHILDSET_PATNO(OBJ_R_MENU_CHAPTERS_ID, 10, intC[0] - 1)
+		;	
+		if intC[0] == -1:
+			OBJFRONTCHILDSET_PATNO(OBJ_R_MENU_CHAPTERS_ID, 10, -1)
+		;
+		
+		// Chapter selected
+		if gMenuChaptersSelectIdx >= 0:
+			if gMenuChaptersSelectIdx > 0:
+				objWipeCopyOff(5)
+				farcall_with(2000, 1, 'SIRO', 0, 0, 0)
+			;
+			intG[10] = intD[0]
+			intG[11] = gMenuChaptersSelectIdx
+			bgmFadeOutEx(800)
+			ReturnMenu
+		;
+		
+		// Left click -> return to prev menu.
+		if gMenuChaptersSelectIdx == -1:
+				sePlay(2)
+				__r_menu_chapters_clear_obj ()
+				break
+		;
+		
+		refresh		
+	;
+;
+
+
+#entrypoint 021 // Z21
+// DrawManual
+__init_r_menu ()
+
+while gMenuSelectType != -1:
+	gMenuSelectType = select_btnobjnow_decide
+	
+	case gMenuSelectType
+	of BTN_CHAPTERS
+		__r_menu_clear_obj ()
+		__handle_select_chapters_page()
+		__init_r_menu ()
+		break
+		
+	of BTN_WATCH_CG
+		__r_menu_clear_obj()
+		CCOM_MESSAGEWINDOW_OFF	
+		OBJFRONTEVE_DISP_WAITALL
+		KEYWAIT
+		__init_r_menu ()
+		OBJFRONTEVE_DISP_WAITALL
+		break
+	
+	of BTN_SUSPEND_STORY
+		__r_menu_clear_obj()
+		
+		// Draw popup
+		OBJFRONTCHILD(20, 10, strS[20], '?', 1)
+		OBJFRONTCHILDLOAD(20, 0, '_SYS_CH_BASE', 1, 393, 250)
+		OBJFRONTCHILDLOAD(20, 1, '_SYS_CH_Y', 1, 499, 396)
+		OBJFRONTCHILDLOAD(20, 2, '_SYS_CH_N', 1, 659, 396)
+		OBJFRONTCHILDSET_BTN(20, 1, 1, 0, 1, 1)
+		OBJFRONTCHILDSET_BTN(20, 2, 1, 0, 1, 2)
+		
+		objShow(20,1)
+		
+		// Handle select
+		__init_select()
+		while 1:
+			gMenuSelectType = select_btnobjnow_decide
+			
+			if gMenuSelectType == 1:
+				objShow(20,0)
+				OBJFRONTFREE(20)
+				intG[10] = 0
+				bgmFadeOutEx(800)
+				MenuReturn
+			;
+			
+			if gMenuSelectType == -1 || gMenuSelectType == 2:
+				objShow(20,0)
+				OBJFRONTCHILDSET_BTNOFF(20, 1)
+				OBJFRONTCHILDSET_BTNOFF(20, 2)
+				break
+			;
+			
+			refresh
+		;
+		
+		__init_r_menu ()
+		break
+	of BTN_SETTING
+		// Save current state
+		CALL_PUSH(0)
+		__r_menu_clear_obj()
+		farcall(3000)
+		
+		// Restore state
+		CALL_POP(1, 8)
+		__init_r_menu ()
+		break
+	
+	of BTN_CANCEL
+		gMenuSelectType = -1
+		break
+	other
+		refresh
+		break
+	ecase
+	CCOM_MESSAGEWINDOW_ON
+;
+
+__r_menu_clear_obj()
+refresh	
+// DrawAuto
+
+rtl
+eof
+halt

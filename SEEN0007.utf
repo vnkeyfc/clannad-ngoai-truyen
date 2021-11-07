@@ -25,10 +25,10 @@
 <0007> Lạnh quá. Đói quá. Cô đơn quá...
 // It's cold. I'm hungry. I'm lonely...
 
-<0008> \ MÌnh kiệt sức rồi...
+<0008> \ Mình kiệt sức rồi...
 // \ I feel weak...
 
-<0009> Cảnh quan trong mắt mình đang trở nên tối dần.
+<0009> Cảnh quan trong mắt mình trở nên tối dần.
 // What I see is turning darker.
 
 <0010> Mình thật sự...
@@ -52,7 +52,7 @@
 <0016> Dường như có ai đó đang chạm vào mình.
 // I feel something touching me.
 
-<0017> Thiệt tình. Ba mẹ kiểu gì mà để con cái trơ trọi thế này?
+<0017> Thiệt tình. Cha mẹ kiểu gì mà để con cái trơ trọi thế này?
 // Where are its parents? Leaving behind such a tiny piglet.
 
 <0018> \ Để chị bế cưng nào.\shake{2}
@@ -64,7 +64,7 @@
 <0020> Xem ra cưng vẫn không sao.
 // Looks like it's still alive.
 
-<0021> Mùi cỏ cây biến thành hương thơm ấm cúng.
+<0021> Mùi cỏ cây biến thành hương ấm cúng.
 // The smell of green turns into a warm smell.
 
 <0022> Nhưng nó khác với cảm giác ấm áp mà mình biết.
@@ -94,7 +94,7 @@
 <0030> Chủ nhân ra lệnh cho mình.
 // Master directs sound to me.
 
-<0031> Âm thanh này mang ý mình không được phép cử động.
+<0031> Âm thanh này mang nghĩa mình không được phép cử động.
 // This is the sound where I'm not supposed to move.
 
 <0032> Pu...
@@ -145,7 +145,7 @@
 <0047> \ Mình chỉ ước được bỏ trốn.
 // \ I really want to run.
 
-<0048> Nhưng mình vẫn chưa nghe thấy âm thanh cho phép mình di chuyển.
+<0048> Nhưng vẫn chưa nghe thấy âm thanh cho phép mình di chuyển.
 // But I haven't heard the sound where I can move yet.
 
 <0049> Phải làm sao đây?
@@ -211,7 +211,7 @@
 <0069> Cơ thể mình phồng to ra và trắng hơn.
 // My body grows bigger and whiter.
 
-<0070> Lại còn tỏa ra mùi rất ngộ.
+<0070> Lại còn tỏa mùi rất ngộ.
 // And it smells funny.
 
 <0071> Thích không nào, Botan?
@@ -241,7 +241,7 @@
 <0079> Tủm.
 // *Splish*
 
-<0080> Uoaa... Botan, cưng nổi này.
+<0080> Uoaa... Botan, em nổi này.
 // Wow... Botan, you float.
 
 <0081> Bụng mình rất ấm... Thoải mái lắm luôn...
@@ -424,7 +424,7 @@
 <0140> Đây là nơi mình đã lui tới nhiều lần. Nó có một bức tường nhìn xuyên qua được.
 // This is the place I come to a lot. It has a transparent wall.
 
-<0141> Có một nam Chủ nhân trông rất dữ tợn.
+<0141> Bên trong là một nam Chủ nhân trông rất dữ tợn.
 // There is a scary-looking male Master here.
 
 <0142> Mình nhìn chằm chằm vào những thứ tỏa mùi thơm ngon, chất thành đống.
@@ -542,7 +542,7 @@
 <0179> Nam Chủ nhân ăn thứ ông ta vừa cho mình rồi chạy theo.
 // The male Master eats the thing he gave me and runs off in the same way.
 
-<0180> Giọng ông nghe rất khẩn thiết.
+<0180> Giọng ông nghe hết sức khẩn thiết.
 // He sounds desperate.
 
 <0181> \ Mình chứng kiến cảnh này suốt.
@@ -618,13 +618,13 @@
 <0204> Nhưng mình quá sợ nên không dám đi tiếp.
 // But I'm too scared to go any further.
 
-<0205> Trong lúc mình vừa đi lang thang vừa sợ hãi, có hai nam Chủ nhân tiến về phía này.
+<0205> Trong lúc mình vừa lang thang vừa sợ hãi, có hai nam Chủ nhân tiến về phía này.
 // I wander around, scared, and two male Masters come.
 
 <0206> Chắc mình nên chạy đi.
 // Maybe I should run away.
 
-<0207> \ Nhưng mình nhận ra một mùi.
+<0207> \ Nhưng mà, mình nhận ra một mùi.
 // \ But I notice a smell.
 
 <0208> Mùi này...
@@ -735,7 +735,7 @@
 <0242> Không sao đâu, tên này sẽ hộ tống em về nhà.
 // It's okay. He'll take you home.
 
-<0243> Chủ nhân nói vậy trong lúc nhìn về phía Chủ nhân đặc biệt.
+<0243> Chủ nhân vừa nói vậy vừa nhìn về phía Chủ nhân đặc biệt.
 // Master makes that sound while looking at the special Master.
 
 <0244> Mình không hiểu lắm, nhưng có vẻ như cô ấy khá gần gũi với Chủ nhân đặc biệt.
@@ -816,7 +816,7 @@
 <0269> Mình đã đi rất lâu.
 // I walk a lot.
 
-<0270> Mùi của Chủ nhân đặc biệt đã mất hết. Giờ mình đang ở một nơi chưa đến bao giờ.
+<0270> Mùi của Chủ nhân đặc biệt đã mất hết. Giờ mình đang ở một nơi chưa đặt chân tới bao giờ.
 // The smell of the special Master is gone. I'm now here at someplace I don't know.
 
 <0271> Nhiều, thật nhiều hạt nước li ti rơi xuống từ trên trời.
@@ -837,7 +837,7 @@
 <0276> Em có sao không?
 // Are you okay?
 
-<0277> Giọng nói hướng về mình trong lúc mình đang lim dim. Một giọng dịu nhẹ song cũng đầy lo lắng.
+<0277> Giọng nói hướng về mình trong lúc mình đang lim dim. Một giọng dịu nhẹ song cũng đầy âu lo.
 // A sound directed at me when I'm sleepy. A relieved but worried sound.
 
 <0278> Chủ nhân nào đây...?
@@ -887,7 +887,7 @@
 <0292> Chủ nhân đặc biệt vừa nói vừa che chắn nước cho mình.
 // The special Master directs sound at me while protecting me from the water.
 
-<0293> Mùi của nước ở khắp nơi, nhưng lẫn trong đó, mình ngửi thấy một mùi quen thuộc.
+<0293> Mùi của nước ở khắp nơi, nhưng lẫn trong đó, mình ngửi thấy một mùi thân thương.
 // The smell of water is everywhere, but within that, I smell something familiar.
 
 <0294> Nó giống mùi hương vào lần đầu mình gặp Chủ nhân.
@@ -905,7 +905,7 @@
 <0298> Aa, đây hẳn là...
 // Oh, this must be...
 
-<0299> \ Mùi của "lòng bao dung."
+<0299> \ Mùi của "lòng nhân hậu."
 // ahh, em ý cute vl.
 // cả seen này nói thật là mình chỉ dịch đc rất sơ sài thôi, sr ô duyệt bài nhé.
 // vì tiếng anh tôi chủ dừng lại ở mức ổn thôi, khi đọc bài này thì tất nhiên tôi vẫn hiểu được đại ý, nhưng mà từ đại ý díchang tiếng việt để giữ đc đúng ý nghĩa thì hơi khó đối với tôi ý.

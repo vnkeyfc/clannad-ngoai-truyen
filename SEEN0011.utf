@@ -7,16 +7,16 @@
 <0001> Ryou-san đặt bộ bài tarot xuống khi nói như vậy với một nụ cười trên môi.
 // Ryou-san puts down the tarot cards as she says that with a smile.
 
-<0002> Khó có thể nói răng mình đang cố gắng...
+<0002> Có thể nói rằng mình đang ép bản thân...
 // I can tell I'm forcing out...
 
-<0003> \ ...tự nở một nụ cười.
+<0003> \ ... nở một nụ cười.
 // \ ...a smile of my own.
 
 <0004> Sao thế? Chân anh bị đau à?
 // What's the matter? Does your leg hurt?
 
-<0005> Không, anh ổn. Những qui trình chăm sóc sau phẫu thuật của anh đang diễn ra rất tốt. Anh cũng nên thể hiện tốt nhất ở buổi phục hồi chức năng hôm nay nhỉ. Haha.
+<0005> Không, anh ổn. Những quy trình chăm sóc hậu phẫu thuật của anh đang diễn ra rất tốt. Anh cũng nên thể hiện tốt nhất ở buổi phục hồi chức năng hôm nay nhỉ. Haha.
 // No, I'm okay. My post-op procedures are going well. I'd better do my best at today's rehab, too. Haha.
 
 <0006> Mình cố gắng che đi nụ cười gượng gạo của mình.
@@ -25,7 +25,7 @@
 <0007> Gần đây mình có nhận ra một điều gì đó.
 // There's something I realized recently.
 
-<0008> Có thể nó là một sự trung hợp ngay từ đầu.
+<0008> Có thể nó là một sự trùng hợp ngay từ đầu.
 // Maybe it was a coincidence in the beginning.
 
 <0009> \ Lần thứ hai cũng có thể là trùng hợp nữa.
@@ -43,10 +43,11 @@
 <0013> \ ...chưa bao giờ chính xác.
 // \ ...is never right.
 
-<0014> MÌnh nhìn ea ngoài cửa sổ, thả hồn vào hư vô.
+<0014> Mình nhìn ra ngoài cửa sổ, thả hồn vào khoảng không.
 // I look out the window, far into the distance.
 
 <0015> Vậy anh không nên nghĩ về tương lai trong hôm nay, nhỉ...
+// àaaaâ, mình hiểu đoannj này rồi, djt mẹ phải dịch cả bài xong bh xoát lại mới hiểu, tức là con bé kia toàn bói sai, nên thg này phải nghĩ ngược lại.
 // So I shouldn't bother thinking of the future today, huh...
 
 <0016> Anh vừa nói gì à?
@@ -55,22 +56,22 @@
 <0017> Không, không có gì.
 // No, nothing.
 
-<0018> Em hiểu rồi. Cậy anh có muốn đi phục hồi chức năng bây giờ không?
+<0018> Em hiểu rồi. Vậy anh có muốn đi tập phục hồi bây giờ không?
 // I see. So, would you like to go to rehab now?
 
-<0019> Anh nghĩ là có. Anh thức sự đang cố hết sức để có thể tự đi lại thật sớm.
+<0019> Anh nghĩ là có. Anh đang cố hết sức để có thể tự đi lại thật sớm.
 // I guess so. I'm really trying my best so I can walk by myself soon.
 
-<0020> Mình ngồi dậy và vươn tới đôi nạng đang dựng ở cạnh giường.
+<0020> Mình ngồi dậy và với tới đôi nạng đang dựng ở cạnh giường.
 // I get up and reach for the crutches standing next to the bed.
 
-<0021> Ryou-san giúp mình đi chuyển.
+<0021> Ryou-san giúp mình đi lại.
 // Ryou-san supports me as I try to find my footing.
 
 <0022> Cảm ơn em.
 // Thank you.
 
-<0023> Tất nhiên rồi.
+<0023> Vâng.
 // Sure.
 
 <0024> Chỉ cần đi đến phòng phục hồi chức năng đã là một phần của quá trình phục hồi rồi.
@@ -115,19 +116,19 @@
 <0037> Cái gì?!
 // What?!
 
-<0038> \ Đ-Đừng bảo là cậu quên mình rồi đấy nhá...?
+<0038> \ Đ-Đừng bảo là em quên chị rồi đấy nhá...?
 // \ D-Don't tell me you forgot about me...?
 
-<0039> \ Này, nghe như cậu quên rồi vậy!
+<0039> \ Này, nghe như em quên rồi vậy!
 // \ Hey, you sound like you forgot!
 
 <0040> Hả...?
 // Huh...?
 
-<0041> \ HẢ...??
+<0041> \ Hả...??
 // \ Huh...??
 
-<0042> Wow, cậu thực sự quên rồi. Mình có cảm giác rằng cậu đã quên thật, nhưng nó thật sự khó chịu...
+<0042> Wow, em thực sự quên rồi. Chị có cảm giác rằng em đã quên thật, nhưng nó thật sự khó chịu...
 // Wow, you really did forget. I had a feeling you would, but that's really annoying...
 
 <0043> Erm, thì...
@@ -136,7 +137,7 @@
 <0044> \ Cô là ai vậy? Chúng ta đã gặp nhau trước kia rồi à?
 // \ Who are you? Have we met before?
 
-<0045> Bốn năm trước, cậu cướp một thứ rất quan trong với mình rồi chạy đi mất...
+<0045> Bốn năm trước, em cướp một thứ rất quan trọng với chị rồi chạy đi mất...
 // Four years ago, you stole something important from me and ran away...
 
 <0046> !\shake{2} !?
@@ -146,6 +147,7 @@
 // I don't really get it, but I have a feeling she just said something really dangerous.
 
 <0048> Mình rụt rè nhìn về phía mình.
+// chỗ này hơi bí từ
 // I timidly look to my side.
 
 <0049> Có chuyện gì vậy?
@@ -154,7 +156,7 @@
 <0050> Ryou-san Nhìn về phía mình với một nụ cười.
 // Ryou-san turns to me with a smile.
 
-<0051> \ Một nụ cười hoàn toàn cứng nhắc...
+<0051> \ Một nụ cười cứng nhắc...
 // \ A completely wooden smile...
 
 <0052> Nó thật sự...
@@ -169,10 +171,10 @@
 <0055> Um, anh phải nhanh lên mới kịp buổi phục hồi. Bye nhá.
 // Um, I have to hurry to rehab. Bye.
 
-<0056> Căn giờ chuẩn đấy. Mình cũng đang quay lại phòng phục hồi chức năng nữa này.
+<0056> Căn giờ chuẩn đấy. Chị cũng đang quay lại phòng phục hồi chức năng nữa này.
 // Perfect timing. I'm on my way back to the training room, too.
 
-<0057> \ Từ hôm nay mình sẽ là một người hướng dẫn. Sếp của mình đã sắp xếp nên mình sẽ là người hướng dẫn của cậu.
+<0057> \ Từ hôm nay chị sẽ là một người hướng dẫn. Sếp của chị đã sắp xếp nên chị sẽ là người hướng dẫn của em.
 // \ I'm starting as a trainer today. I had my boss arrange it so I'll be your trainer.
 
 <0058> Có chuyện gì với con người này vậy? Cô ấy hận ai hay gì à?
@@ -205,13 +207,13 @@
 <0067> Mình chỉ có thể quan sát khi Kappei-san đang cố hết sức.
 // I can only watch as Kappei-san works hard.
 
-<0068> Mình chưa từng cảm thấy buồn như ngày hôm nay...
+<0068> Mình chưa từng cảm thấy quạu như ngày hôm nay...
 // I've never felt as mortified as today...
 
-<0069> Kappei-san đang thực hiện bài phục hồi trong lúc nói chuyện rất thân mật với người phụ nũ anh ấy mới gặp .
+<0069> Kappei-san đang thực hiện bài phục hồi trong lúc nói chuyện rất thân mật với người phụ nữ anh ấy mới gặp .
 // Kappei-san is doing his rehab while talking intimately with that woman he just met.
 
-<0070> Cậu đã phậu thuật lạnh đúng không? Cậu lại định chạy lần nữa à?
+<0070> Em đã phậu thuật lạnh đúng không? Em lại định chạy lần nữa à?
 // You had cryosurgery, right? Are you going to run again?
 
 <0071> Điều đó là không thể đâu.
@@ -220,25 +222,25 @@
 <0072> \ Mặc dù tôi đã có thể tập luyện, nhưng nó đã quá lâu rồi kể từ lần cuối tôi chạy.
 // \ Even though I can exercise now, it's been too long since I've run.
 
-<0073> Ồ? Vậy, MÌnh đoán cậu vẫn còn chân là một tin tốt nhỉ.
+<0073> Ồ? Vậy, Chị đoán em vẫn còn chân là một tin tốt nhỉ.
 // Oh? Well, I guess it's good that you still have your legs.
 
 <0074> Ừ. Tôi nghe nói rằng không có trờ ngại nào khi đi lại cả.
 // Yeah. I heard that there shouldn't be any mobility problems.
 
-<0075> Vậy cậu nên tập luyện phục hồi chăm chỉ hơn.
+<0075> Vậy em nên tập luyện phục hồi chăm chỉ hơn.
 // Then you'd better work hard at rehab.
 
-<0076> \ Được rồi. Cậu có thể đi chậm, nhưng hãy làm ba chuyến đi và về.
+<0076> \ Được rồi. Em có thể đi chậm, nhưng hãy làm ba chuyến đi và về.
 // \ Okay then. You can go slowly, but make three trips back and forth.
 
 <0077> Okay.
 // Okay.
 
-<0078> Nhưng... đây vẫn là một qui trình phục hồi khá tham vọng đấy. Không thể đẩy nhanh quá trình đâu đấy, cậu biết không?
+<0078> Nhưng... đây vẫn là một giáo án phục hồi khá tham vọng đấy. Không thể đẩy nhanh quá trình đâu đấy, em biết không?
 // Still... this is a really ambitious rehab workout menu. No good can come from rushing things, you know?
 
-<0079> Nó ổn mà. Tôi muốn đi lại sớm nhất có thể. Có một thứ quan trọng mà tôi đưa cho một người trên chính đôi chân của mình.
+<0079> Nó ổn mà. Em muốn đi lại sớm nhất có thể. Có một thứ quan trọng mà em muốn đưa cho một người trên chính đôi chân của mình.
 // It's fine. I want to walk as soon as possible. There's something important I want to give to someone on my own two feet.
 
 <0080> Một thứ quan trọng?
@@ -247,7 +249,7 @@
 <0081> Ừ, nó rất quan trọng.
 // Yes, it's very important.
 
-<0082> Giá mà mình có bằng, minh đã có thể là người đang đứng cạnh Kappei-san.
+<0082> Giá mà mình có bằng, mình đã có thể đứng cạnh Kappei-san lúc này.
 // If only I had a license, I would be the one standing next to Kappei-san.
 
 <0083> Nhưng... có chuyện gì giữa Kappei-san và cô gái đó vậy?
@@ -265,7 +267,7 @@
 <0087> ...Có khi nào cô ấy là bạn gái cũ của anh ấy?!
 // ...Could she be his ex-girlfriend?!
 
-<0088> Có phiền không nếu mình ngồi cạnh cậu?
+<0088> Có phiền không nếu chị ngồi cạnh cậu?
 // Do you mind if I sit next to you?
 
 <0089> Fweh?
@@ -284,19 +286,19 @@
 <0093> Cô ấy ngội cạnh mình mà không cần đợi câu trả lời.
 // The woman sits next to me without waiting for an answer.
 
-<0094> Vậy thì, xin chảo lần nữa. Tên mình là Fuyuki.
+<0094> Vậy thì, xin chào lần nữa. Chị là Fuyuki.
 // Well, hello again. My name is Fuyuki.
 
-<0095> X-Xin chào... Mình là Fujibayashi. Um...
+<0095> X-Xin chào... Em là Fujibayashi. Um...
 // H-Hello... I'm Fujibayashi. Um...
 
-<0096> \ Cậu có chắc rằng cậu không nên giúp Kappei-san?
+<0096> \ Chị có chắc rằng không nên giúp Kappei-san?
 // \ Are you sure you shouldn't be supporting Kappei-san?
 
-<0097> Mm, mình nên giúp, nhưng anh ấy sẽ ổn thôi mà.
+<0097> Mm, chị nên giúp, nhưng cậu ấy sẽ ổn thôi mà.
 // Mm, I should be, but he'll be fine.
 
-<0098> \ Nếu mình dính vào Hiiragi quá nhiều, những nếp nhăn trên mặt cậu sẽ hằn luôn trên đấy dấy.
+<0098> \ Nếu chị ở cạnh vào Hiiragi quá lâu, những nếp nhăn trên mặt em sẽ hằn luôn trên đấy dấy.
 // \ If I stick to Hiiragi too much, those wrinkles on your face might become permanent.
 
 <0099> Cô ấy nói vậy trong lúc chỉ vào giữa hai mắt của mình.
@@ -308,16 +310,16 @@
 <0101> Mặt mình nóng ran. Mình khá chắc mình đang đỏ bừng lên.
 // My face burns up. I'm sure I'm turning bright red.
 
-<0102> Ahaha, phản ứng đáng yêu dễ sợ. Trêu cậu khá là vui đấy.
+<0102> Ahaha, phản ứng đáng yêu dễ sợ. Trêu em khá là vui đấy.
 // Ahaha, what a cute reaction. You're really fun to tease.
 
 <0103> Ugh...
 // Ugh...
 
-<0104> Vây, cậu là bạn gái của Hiiragi à?
+<0104> Vây, em là bạn gái của Hiiragi à?
 // So, are you Hiiragi's girlfriend?
 
-<0105> À... ừ...
+<0105> À... vâng...
 // Oh... uhh...
 
 <0106> \ Đúng vậy...
@@ -335,10 +337,10 @@
 <0110> Fuyuki-san, có phải...
 // Fuyuki-san, are you...
 
-<0111> \ Cậu có quan hệ gì với Kappei-san vậy?
+<0111> \ Chị có quan hệ gì với Kappei-san vậy?
 // \ How are you related to Kappei-san?
 
-<0112> Cậu ấy là lần đầu của mình.
+<0112> Em ấy là lần đầu của chị.
 // He was my first time.
 
 <0113> Một câu trả lời ngay lập tức.
@@ -359,13 +361,13 @@
 <0118> \ Mắt mình cảm thấy nóng...
 // \ My eyes feel hot...
 
-<0119> Mình đùa thôi. Đừng làm như cậu sắp khóc vây. Làm ơn.
+<0119> Chị đùa thôi. Đừng làm như em sắp khóc vây. Làm ơn.
 // I'm kidding, sorry. Don't look like you're about to cry. Please.
 
 <0120> Fuyuki-san, với khuôn mặt hoảng hốt, xin lỗi với hai tay áp chặt vào nhau.
 // Fuyuki-san, with a panicked face, apologizes with both palms together.
 
-<0121> Thì, khi mình nói "lần đầu", nó không giống như cái cậu nghĩ đâu.
+<0121> Thì, khi chị nói "lần đầu", nó không giống như cái mà em nghĩ đâu.
 // Well, when I say "first time," it's not what you think.
 
 <0122> Cô ấy nhìn về phía Kappei-san trong lúc nói vậy.
@@ -374,10 +376,10 @@
 <0123> With a gaze of nostalgia, she smiles wistfully.
 // With a gaze of nostalgia, she smiles wistfully.
 
-<0124> Cậu có muôn biết? Về Hiiragi của quá khứ... và về chúng mình...
+<0124> Em có muôn biết? Về Hiiragi của quá khứ... và về bọn chị...
 // Do you want to know? About Hiiragi in the past... and about us...
 
-<0125> \ Sự liên kiến giữa chúng mình.
+<0125> \ Sự liên kiến giữa bọn chị.
 // \ Our connection.
 
 <0126> Mình khẽ gật đầu.
@@ -392,19 +394,19 @@
 <0129> Đúng vậy... bốn năm trước...
 // Yes... four years ago...
 
-<0130> \ Cậu ấy đã lấy rất nhiều thứ từ mình...
+<0130> \ Cậu ta đã lấy rất nhiều thứ từ chị...
 // \ He took so many things from me...
 
 <0131> Mình nhìn về phía hai người họ trong lúc đang nghỉ giữa hai thanh đỡ.
 // I look at the two of them while resting between the parallel bars.
 
-<0132> Hmm... Mình khôngbiết Ryou-san và Fuyuki-san đang nói về gì...
+<0132> Hmm... Không biết Ryou-san và Fuyuki-san đang nói về gì...
 // Hmm... I wonder what Ryou-san and Fuyuki-san are talking about...
 
 <0133> Dù vậy... Mình vẫn không ngờ là sẽ gặp Fuyuki-san ở đây...
 // Still... I didn't expect to see Fuyuki-san here...
 
-<0134> Mình đã rất trẻ nốn năm về trước...
+<0134> Chị đã rất trẻ hồi bốn năm về trước...
 // I was so young four years ago...
 
 <0135> Hồi đó, chân mình vẫn ổn và mình đã liên tục phá những kỉ lục cá nhân của mình.
@@ -416,7 +418,7 @@
 <0137> Khi mình quay lại điểm tập chung, mọi người đã đi hết.
 // When I returned to the meeting place, everyone was already gone.
 
-<0138>  Mình đã lang thang xung quanh không biết đi đâu. Mình thấy một nhân viên tại đó trông như đang tìm ai đó.
+<0138>  Mình đã lang thang xung quanh không biết đi đâu. Có một nhân viên tại đó trông như đang tìm ai đó.
 // I wandered around not knowing where to go. I saw an employee who appeared to be looking for someone.
 
 <0139> Nhân viên đó nhìn vào phù hiệu trên ngực mình và nắm lấy tay mình...
@@ -428,7 +430,7 @@
 <0141> Huh...? Fuyu...?
 // Huh...? Fuyu...?
 
-<0142> Hm? À, bảng tên cậu bị ngược. Nhunge không có thời gian đâu, cứ kệ nó đi.
+<0142> Hm? À, bảng tên cậu bị ngược. Nhưng không có thời gian đâu, cứ kệ nó đi.
 // Hm? Oh, your tag is reversed. But there's no time, so just come like that.
 
 <0143> Um, umm... Khoan đã, cái gì? Mình...
@@ -449,43 +451,43 @@
 <0148> Fuyuki-san cười vào quá khứ của cô ấy.
 // Fuyuki-san laughs at her past self.
 
-<0149> Cuối cùng mình đã vào đường đua... và rồi mình nghe thấy thông báo.
+<0149> Cuối cùng chị đã vào đường đua... và rồi chị nghe thấy thông báo.
 // I finally got back to the track entrance... and then I heard the announcement.
 
 <0150> \ "Fuyuki ở đường đua số 4 thiết lập một kỉ lúc mới."
 // \ "Fuyuki at Track 4 sets a new track meet record."
 
-<0151> MÌnh kiểu, "Chottomate! Mình ở đây cơ mà! Có chuyện gì vậy?"
+<0151> Chị kiểu, "Chottomate! Tôi ở đây cơ mà! Có chuyện gì vậy?"
 // I was like, "Hold on! I'm right here! What's going on?"
 
 <0152> Với đôi mắt bị che bởi tóc mái, đôi vai của cô ấy run rẩy.
 // With her eyes covered by her bangs, her shoulders are quivering.
 
-<0153> Mình vội vàng trở lại đường đua, và đó là lúc mình gặp Hiiragi...
+<0153> Chị vội vàng trở lại đường đua, và đó là lúc chị gặp Hiiragi...
 // I rushed back to the track, and that's when I met Hiiragi...
 
 <0154> Fuyuki-san nhìn Kappei-san và thở dài.
 // Fuyuki-san looks at Kappei-san and sighs.
 
-<0155> Ban đầu mình tưởng cậu ấy là con gái cơ... VÀ rồi, mình khá chắc cậu ấy vẫn bị nhầm đến bây giờ.
+<0155> Ban đầu chị tưởng em ấy là con gái cơ... Kể ra, chị khá chắc em ấy vẫn bị nhầm đến tận bây giờ.
 // I thought he was a girl at first... Then again, I'm sure he gets mistaken for one even now.
 
-<0156> \ Cậu ấy chạy khỏi mọi người và đang hoảng loạn.
+<0156> \ EM ấy chạy khỏi mọi người và đang hoảng loạn.
 // \ He ran away from everyone and was panicking.
 
-<0157> Cậu ấy nhìn bảng tên của mình và nhận ra tên mình là gì. Cậu ấy xin lỗi rồi chạy đi.
+<0157> Em ấy nhìn bảng tên của chị và nhận ra tên chị là gì. Em ấy xin lỗi rồi chạy đi.
 // He looked at my tag and realized what my name was. He apologized and ran off.
 
-<0158> \ Đó là mình, hoàn toàn chết lặng.
+<0158> \ Chị ở đó, hoàn toàn chết lặng.
 // \ There I was, totally dumbfounded.
 
 <0159> Cô ấy thở lại thở dài một lần nữa.
 // She lets out another big sigh.
 
-<0160> Thật là xúc phạm khi đứng trên bục của người chiến thắng khi mình thậm chí còn chưa chạy.
+<0160> Thật là xúc phạm khi phải đứng trên bục của người chiến thắng trong khi mình thậm chí còn chưa phải làm gì.
 // It was insulting standing on the winner's podium when I hadn't even run.
 
-<0161> Mình... mình đoán vậy...
+<0161> Em... Em đoán vậy...
 // I... I guess so...
 
 <0162> Giọng cô ấy run run và mình không biết phải nói gì với cô ấy, vì vậy mình tán thành.
@@ -494,10 +496,10 @@
 <0163> Nhưng!
 // But!
 
-<0164> Fuyuki-san Nhìn lên đầy quyết đoán và nắm lấy vai mình.
+<0164> Fuyuki-san Nhìn lên đầy sựu quyết liệt và nắm lấy vai mình.
 // Fuyuki-san looks up vigorously and grabs my shoulders.
 
-<0165> Điều xúc phạm hơn là những gì đã xảy ra sau đó! Đó là những gì mọi người đã nói!
+<0165> Điều đáng xúc phạm hơn là những gì đã xảy ra sau đó! Đó là những gì mọi người đã nói!
 // What's more insulting is what happened afterward! It's what everyone said!
 
 <0166> Um... Chuyện gì đã xảy ra sau đó...?
@@ -506,7 +508,7 @@
 <0167> ...
 // ...
 
-<0168> \ Mình nghe thấy một giọng nói: "Chờ đã, tao tưởng nghĩ em ấy trông dễ thương mà."
+<0168> \ Chị nghe thấy một giọng nói: "Chờ đã, tao tưởng nghĩ em ấy trông dễ thương mà."
 // \ I heard a voice say, "Wait, I thought she looked cuter."
 
 <0169> Đôi vai cô ấy rũ xuống khi nói điều đó.
@@ -518,10 +520,10 @@
 <0171> Oh... Fuyuki-san đang nhìn xuống khi đang nắm vai Ryou-san.
 // Oh... Fuyuki-san is looking down while grabbing Ryou-san's shoulders.
 
-<0172> Giờ nghĩ lại, hồi đó cô ấy cũng như vậy.
+<0172> Giờ nghĩ lại, hồi đó chị ấy cũng như vậy.
 // Now that I think about it, she was like that back then.
 
-<0173> Trong khi mình đang lau mồ hôi ở gần vòi nước, cô ấy bước đến chỗ mình với vẻ mặt đáng sợ.
+<0173> Trong khi mình đang lau mồ hôi ở gần vòi nước, Chị ấy bước đến chỗ mình với vẻ mặt đáng sợ.
 // While I was wiping off my sweat near the fountain, she came stomping over to me with a scary face.
 
 <0174> Cậu!
@@ -533,10 +535,10 @@
 <0176> Ý cậu là sao, "hàng xịn"?! Sao lại thế hả?! Cậu đã cướp chỗ của tôi!
 // What do you mean, "the real one"?! What's the big idea?! You took my spot!
 
-<0177> MÌnh... Mình cũng không biết. Bình luận viên đã nhầm mình với cậu mà.
+<0177> Mình... Mình cũng không biết. Bình luận viên đã nhầm mình với cậu mà.
 // I... I couldn't help it. The track meet committee person mistook me for you.
 
-<0178> Ya cậu là thể kanji của "Fuyuki" lật lại trông giống "Hiiragi" á? Cậu không lừa được ai đâu!
+<0178> Ý cậu là thể kanji của "Fuyuki" lật lại trông giống "Hiiragi" á? Cậu không lừa được ai đâu!
 // You mean how the kanji for "Fuyuki" flipped backward looks like "Hiiragi"? You're not fooling anyone!
 
 <0179> Nói mới nhớ, mình nghĩ Ông bình luận viên đó đeo kính đấy.
@@ -575,7 +577,7 @@
 <0190> \ Không phải ngực cậu hơi phẳng quá af?
 // \ Isn't your chest way too flat?
 
-<0191> ...? MÌnh thấy bình thường mà...
+<0191> ...? Mình thấy bình thường mà...
 // ...? I think it's normal...
 
 <0192> Đừng nói là...
@@ -587,10 +589,10 @@
 <0194> Tất nhiên mình là con trai rồi!
 // Of course I'm a man!
 
-<0195> Geez... MÌnh thề rằng cậu ấy là con gái...
+<0195> Geez... Chị thề rằng cậu ấy là con gái...
 // Geez... I could have sworn he was a girl...
 
-<0196> MÌnh... Mình hiểu...
+<0196> Em... Em hiểu...
 // I... I see...
 
 <0197> Đó là lần đầu tiên và cũng là lần cuối cùng mình nhìn chằm chằm vào một đứa con trai.
@@ -608,357 +610,363 @@
 <0201> Mình nhận ra ẩn ý và bắt đầu đỏ mặt.
 // I realize how it sounds and I turn bright red.
 
-<0202> Uh, um... I didn't mean that in a weird way. I did wipe him down a few times in the hospital room, and... um...
+<0202> Uh, um... Ý chị không phải vậy đâu. Chị từng lau người cho em ấy một vài lần ở bệnh viện, và... um...
 // Uh, um... I didn't mean that in a weird way. I did wipe him down a few times in the hospital room, and... um...
 
-<0203> Ahaha. Okay, okay. You don't have to look so desperate.
+<0203> Ahaha. Được rồi, được rồi. Em không phải sững sờ vậy đâu.
 // Ahaha. Okay, okay. You don't have to look so desperate.
 
 <0204> Ugh...
 // Ugh...
 
-<0205> Well, that was the worst way anyone could meet.
+<0205> Chà, đó là điều tệ nhất có thể xảy ra với ai đó.
 // Well, that was the worst way anyone could meet.
 
-<0206> Fuyuki-san smiles nostalgically.
+<0206> Fuyuki-san cứ cười hoài.
 // Fuyuki-san smiles nostalgically.
 
-<0207> By the way, I was after Hiiragi after that.
+<0207> Nhân tiện, chị đã theo đuổi Hiiragi sau đó.
 // By the way, I was after Hiiragi after that.
 
-<0208> She says that with a serious face all of a sudden.
+<0208> Cô ấy đột ngột nói vậy với một vẻ mặt nghiêm trọng.
 // She says that with a serious face all of a sudden.
 
-<0209> Huh...?
+<0209>Hả...?
 // Huh...?
 
-<0210> We started talking every time we met at a track meet... I started to fall for him.
+<0210> Bọn chị bắt đầu nói chuyện mỗi khi gặp nhau ở vạch phân làn... Chị bắt đầu thích cậu ấy.
 // We started talking every time we met at a track meet... I started to fall for him.
 
-<0211> Fuyuki-san turns to Kappei-san as she says that.
+<0211> Fuyuki-san nhìn Kappei-san khi nói vậy.
 // Fuyuki-san turns to Kappei-san as she says that.
 
-<0212> That gaze causes me to feel an indescribable worry.
+<0212> Ánh mắt đó mang cho mình một cảm giác lo lắng vô cùng.
 // That gaze causes me to feel an indescribable worry.
 
-<0213> By the way, he rejected me.
+<0213> À mà, em ấy từ chối chị rồi.
 // By the way, he rejected me.
 
-<0214> Huh?
+<0214> Hả?
 // Huh?
 
-<0215> He totally rejected me.
+<0215> Em ấy từ chối thẳng thừng luôn.
 // He totally rejected me.
 
 <0216> ...
 // ...
 
-<0217> Hm? Why do you look like you're about to cry again?
+<0217> Hm? Sao trông em lại như sắp khóc lần nữa thế?
 // Hm? Why do you look like you're about to cry again?
 
-<0218> ...I'm sorry...
+<0218> ...Em xin lỗi...
 // ...I'm sorry...
 
-<0219> Why are you sorry?
+<0219> Sao em lại xin lỗi?
 // Why are you sorry?
 
-<0220> After hearing that you were rejected, I...
+<0220> Sau khi nghe chị bảo chị bị từ chối, em...
 // After hearing that you were rejected, I...
 
-<0221> \ I felt relieved...
+<0221> \ Em cảm thấy thật nhẹ nhõm...
 // \ I felt relieved...
 
-<0222> I say that, on the verge of tears, while Fuyuki-san looks at me blankly.
+<0222> Mình nói vậy, với làn nước mắt sắp sửa tuôn trào, trong khi Fuyuki-san thẫn thờ nhìn mình.
 // I say that, on the verge of tears, while Fuyuki-san looks at me blankly.
 
-<0223> Ahaha. I kind of understand why you're Hiiragi's girlfriend, Fujibayashi-san.
+<0223> Ahaha. Chị bắt đầu hiểu vì sao em lại là bạn gái của Hiiragi rồi, Fujibayashi-san.
 // Ahaha. I kind of understand why you're Hiiragi's girlfriend, Fujibayashi-san.
 
-<0224> Huh...?
+<0224> Hả...?
 // Huh...?
 
-<0225> You want to know what he said to me when he rejected me?
+<0225> Em muốn biết cậu ý nói gì khi từ chối chị không?
 // You want to know what he said to me when he rejected me?
 
 <0226> Whoop...
+// chỗ này là sao? tiếng chó sửa à, ko đấy là woof mà nhỉ, mn biên giúp mình nhá
 // Whoop...
 
-<0227> \ Phew...
+<0227> \ Phù...
 // \ Phew...
 
-<0228> I catch my breath at the edge of the parallel bars.
+<0228> Mình tở hổn hển ở rìa của của hai thanh đỡ.
 // I catch my breath at the edge of the parallel bars.
 
-<0229> What are those two talking about?
+<0229> Hai người đó đang nói về gì vậy?
 // What are those two talking about?
 
-<0230> \ Hey! Ryou-san looks like she's about to cry!
+<0230> \ Nè! Ryou-san trông như sắp khóc vậy!
 // \ Hey! Ryou-san looks like she's about to cry!
 
-<0231> Why...?
+<0231> Tại sao...?
 // Why...?
 
-<0232> \ I wonder if Fuyuki-san still hates me...
+<0232> \ Không biết Fuyuki-san có còn ghét mình không nhỉ...
+// dịch đến đây mình mới không hiểu thật sự này, tưởng ban đầu thằng này không nhận ra con bé 4 năm trc kia, thế tức là sao, hay ban đầu giả vờ à hay j
 // \ I wonder if Fuyuki-san still hates me...
 
-<0233> We got off on the wrong foot from the beginning, anyway...
+<0233> Dù sao ngay từ đầu bọn mình cũng đã đi sai hướng rồi...
 // We got off on the wrong foot from the beginning, anyway...
 
-<0234> On top of that, I rejected her...
+<0234> Hơn nữa, mình đã từ chối chị ấy...
 // On top of that, I rejected her...
 
-<0235> Looking back, what I said at the time might've been really harsh...
+<0235> Nhìn lại thì, những gì mình nói hôm đó có thể hơi quá đáng thật...
 // Looking back, what I said at the time might've been really harsh...
 
-<0236> Hey, Hiiragi.
+<0236> Này, Hiiragi.
 // Hey, Hiiragi.
 
-<0237> Hm? What?
+<0237> Hm? Sao?
 // Hm? What?
 
-<0238> I'm going to retire after the competition.
+<0238> Chị quyết định sẽ nghỉ thi đấu sau cuộc thi lần này.
 // I'm going to retire after the competition.
 
-<0239> Oh, really? You're a third-year, after all.
+<0239> Oh, thật á? Chị là năm ba nhỉ, dù gì.
 // Oh, really? You're a third-year, after all.
 
-<0240> Looks like we won't be able to see each other again.
+<0240> Có vẻ như mình không còn gặp nhau được nữa rồi nhỉ.
 // Looks like we won't be able to see each other again.
 
-<0241> Hmm. Well, we do live really far apart.
+<0241> Hmm. Chà, nhà bọn mình cũng ở khá xa nhau.
 // Hmm. Well, we do live really far apart.
 
-<0242> Hey...
+<0242> Này...
 // Hey...
 
-<0243> \ Wanna... make a bet?
+<0243> \ Muốn... cá không?
 // \ Wanna... make a bet?
 
-<0244> What do you mean?
+<0244> Ý chị là sao?
 // What do you mean?
 
-<0245> If I beat your record... from back then...
+<0245> Nếu chị phá kỉ lục của em... từ lúc đó...
 // If I beat your record... from back then...
 
-<0246> \ G-Go out with me...
+<0246> \ H-Hẹn hò với chị...
 // \ G-Go out with me...
 
-<0247> You can't beat my record.
+<0247> Chị không thể đánh bại em được đâu.
 // You can't beat my record.
 
-<0248> Time to response, 0.2 seconds.
+<0248> Thời gian phản hồi, 0.2 giây.
 // Time to response, 0.2 seconds.
 
-<0249> I was putting her down before she even started running...
+<0249> Mình đã đánh úp chị ấy từ trước khi chị ấy kịp chạy đi...
+// dịch đến đây mới nhận ra là con bé kia hơn tuổi thg này, lại phải chỉnh lại từ trên
 // I was putting her down before she even started running...
 
-<0250> I didn't mean to say that, but there's only one way she could interpret it.
+<0250> Mình không có ý nói như vậy, nhưng chỉ có một cách để chị ý có hiểu được nó.
 // I didn't mean to say that, but there's only one way she could interpret it.
 
-<0251> In the end, she still didn't beat my record.
+<0251> Sau cùng, chị ý cũng không thể phá kỉ lục của mình.
 // In the end, she still didn't beat my record.
 
-<0252> Well... it's hard for a woman to beat a record set by a man...
+<0252> Thì... khá là khó cho con gái để phá kỉ lục của con trai...
 // Well... it's hard for a woman to beat a record set by a man...
 
-<0253> I won first place, but I couldn't feel happy about it.
+<0253> Chị đạt giải nhất, nhưng chị không hề vui về chuyện đó.
+// từ từ, tức là chị gái 4 năm kia cx hơn tuôiỉ ryuo, thế thì có nên đổi lại ko nhỉ
 // I won first place, but I couldn't feel happy about it.
 
-<0254> Fuyuki-san laughs while shrugging her shoulders.
+<0254> Fuyuki-san cười khi đang nhún vai.
 // Fuyuki-san laughs while shrugging her shoulders.
 
-<0255> Um... Kappei-san doesn't really think before he speaks, so...
+<0255> Um... Kappei-san không hay uốn lưỡi trước khi nói, nên...
 // Um... Kappei-san doesn't really think before he speaks, so...
 
-<0256> Yeah, I know. He came up to me afterward and told me.
+<0256> Ừ, chị biết. Em ấy lại gặp chị sau đó và nói.
 // Yeah, I know. He came up to me afterward and told me.
 
-<0257> Told you what...?
+<0257> Nói gì cơ...?
 // Told you what...?
 
-<0258> That he couldn't go out with me.
+<0258> Là em ấy không thể hẹn hò với chị được.
 // That he couldn't go out with me.
 
-<0259> I don't understand what it means to like someone.
+<0259> Em không không rõ rằng thích một người là như thế nào.
 // I don't understand what it means to like someone.
 
-<0260> \ I don't mind being friends, but... how should I put it? To feel more emotions than that over someone is...
+<0260> \ Em không phiền nếu mình là bạn, nhưng... nói thế nào nhỉ? Để hiểu được cảm xúc của ai đó hơn chính họ...
 // \ I don't mind being friends, but... how should I put it? To feel more emotions than that over someone is...
 
-<0261> \ It's scary.
+<0261> \ Khá là đáng sợ.
 // \ It's scary.
 
-<0262> Fuyuki-san was amazed when I told her that.
+<0262> Fuyuki-san vô cùng ngạc nhiên khi mình nói như vậy.
 // Fuyuki-san was amazed when I told her that.
 
-<0263> I told her about myself.
+<0263> Mình kể với chị ấy về bản thân.
 // I told her about myself.
 
-<0264> That I'm an orphan...
+<0264> Rằng mình là trẻ mồ côi...
 // That I'm an orphan...
 
-<0265> I slowly sat down next to Fuyuki-san and talked to her.
+<0265> Mình chậm rãi ngồi xuống bên cạnh Fuyuki-san và nói với chị ấy.
 // I slowly sat down next to Fuyuki-san and talked to her.
 
-<0266> Children are born when a man and a woman love each other.
+<0266> Trẻ con được sinh ra khi người đàn ông và người phụ nữ địt nhau.
 // Children are born when a man and a woman love each other.
 
-<0267> \ But there are people who will throw away those children.
+<0267> \ Nhưng cũng có những người vứt bỏ những đứa trẻ đó.
 // \ But there are people who will throw away those children.
 
-<0268> \ The blood of people like that runs in my veins.
+<0268> \ Dòng máu của người như vậy đang chảy bên trong em.
 // \ The blood of people like that runs in my veins.
 
-<0269> I spat those words out as if regretting my own blood.
+<0269> Mình tuôn ra những lòi đó như đang phủ nhận dòng máu của mình.
 // I spat those words out as if regretting my own blood.
 
-<0270> But Fuyuki-san sandwiched my face with her hands and forced me to look at her.
+<0270> Nhưng Fuyuki-san ép hai má mình lại và bắt mình nhìn chị ý.
+// tôi thấy là nên dịch thành sandwiched bằng đùi thì hay hơn.
 // But Fuyuki-san sandwiched my face with her hands and forced me to look at her.
 
-<0271> Your parents are your parents. You are yourself.
+<0271> Ba mẹ em là ba mẹ em. Em là em.
 // Your parents are your parents. You are yourself.
 
-<0272> \ You know what a "negative example" is? It's like a role model of what not to be.
+<0272> \ Em có biết "khuôn mẫu tiêu cực" là gì không? Nó giống như một hình mẫu không đáng có.
 // \ You know what a "negative example" is? It's like a role model of what not to be.
 
-<0273> Since you know exactly the kind of person you don't want to be, then you should know how to be nice better than anyone else.
+<0273> Khi mà em biết chính xác mẫu người mà em không muốn trở thành, em sẽ biết cách để trở nên tốt hơn so với những người khác.
+// tôi lại bị dịch tối nghĩa rồi
 // Since you know exactly the kind of person you don't want to be, then you should know how to be nice better than anyone else.
 
-<0274> Fuyuki-san said that with a straight face as if scolding me.
+<0274> Fuyuki-san nói vậy với khuôn mặt căng ra như đang mắng mình.
 // Fuyuki-san said that with a straight face as if scolding me.
 
-<0275> That was the first time anyone said that to me.
+<0275> Đó là lầu đầu tiên mà ai đó nói vậy với mình.
 // That was the first time anyone said that to me.
 
-<0276> I unknowingly let out a sigh of admiration.
+<0276> Mình bất giác thở dài thán phục.
 // I unknowingly let out a sigh of admiration.
 
-<0277> Will that day come...? When I won't be afraid to love...?
+<0277> Liệu sẽ có ngày đó chứ...? Khi mà em không còn sợ yêu...?
 // Will that day come...? When I won't be afraid to love...?
 
-<0278> Maybe not now, but I'm sure that day will come someday.
+<0278> Có thể không phải bây giờ, nhưng em chắc rằng ngày đó sẽ tới thôi.
 // Maybe not now, but I'm sure that day will come someday.
 
-<0279> \ Well, it's just too bad it won't be with me.
+<0279> \ Chà, chỉ là quá tệ khi ngày đó không kịp đến với chị.
 // \ Well, it's just too bad it won't be with me.
 
-<0280> Fuyuki-san said that with a smile and with something shining in the corners of her eyes.
+<0280> Fuyuki-san với một nụ cười và một thứ gì đó đang lóe lên trong mặt chị ý.
 // Fuyuki-san said that with a smile and with something shining in the corners of her eyes.
 
-<0281> And then we parted, and we never met again.
+<0281> Sau đó bọn chị chia tay, không còn gặp nhau nữa.
 // And then we parted, and we never met again.
 
-<0282> \ I felt like he stole my heart.
+<0282> \ Cảm giác như cậu ấy chiếm lấy tim mình vậy.
 // \ I felt like he stole my heart.
 
-<0283> After Fuyuki-san finishes talking, she smiles as if refreshed.
+<0283> Sau khi Fuyuki-san nói xong, chị ý cười như thể được giải tỏa chút gánh nặng.
 // After Fuyuki-san finishes talking, she smiles as if refreshed.
 
-<0284> I fold my hands tightly in front of my chest.
+<0284> Mình khoanh tay lại trước ngực.
 // I fold my hands tightly in front of my chest.
 
-<0285> And I bow.
+<0285> Và mình cúi người.
 // And I bow.
 
-<0286> ...Thank you very much.
+<0286> ...Cảm ơn chị rất nhiều.
 // ...Thank you very much.
 
-<0287> Huh? Wh-Why? Now you're thanking me?
+<0287> Hả? S-Sao? Giờ em lại cảm ơn chị?
 // Huh? Wh-Why? Now you're thanking me?
 
-<0288> I think Kappei-san was saved by your words.
+<0288> Em nghĩ Kappei-san đã được cứu rỗi bởi những lời chị nói.
 // I think Kappei-san was saved by your words.
 
-<0289> \ I think he's very thankful to you.
+<0289> \ Em nghĩ anh ấy đã rất biết ơn chị đó.
 // \ I think he's very thankful to you.
 
-<0290> I don't think anyone ever told him that...
+<0290> Em không nghĩ ai đó có thể nói với anh ấy như vậy...
 // I don't think anyone ever told him that...
 
-<0291> \ Um... I'm not sure how to say this...
+<0291> \ Um... Em không biết phải nói gì nữa...
 // \ Um... I'm not sure how to say this...
 
-<0292> \ But I think he was really happy for it.
+<0292> \ Những em nghĩ anh ấy thật sự vui vì điều đó.
 // \ But I think he was really happy for it.
 
-<0293> Ahaha... You're a good kid.
+<0293> Ahaha... Em đúng là một đứa trẻ ngoan.
 // Ahaha... You're a good kid.
 
-<0294> \ Maybe that's why Hiiragi fell for you.
+<0294> \ Cso khi đấy là lí do Hiiragi Thích em đấy.
 // \ Maybe that's why Hiiragi fell for you.
 
-<0295> N-No, compared to you, I'm...
+<0295> K-Không, so với chị, em...
 // N-No, compared to you, I'm...
 
-<0296> Oh, so you don't mind if I steal Hiiragi from you?
+<0296> Oh, vậy em không phiền nếu chị cướp Hiiragi từ em chứ?
 // Oh, so you don't mind if I steal Hiiragi from you?
 
-<0297> D-Don't!
+<0297> Đ-Đừng!
 // D-Don't!
 
-<0298> Fuyuki-san laughs when she hears my voice roughen in response.
+<0298> Fuyuki-san cười khi nghe thấy mình kiên quyết đáp lại.
 // Fuyuki-san laughs when she hears my voice roughen in response.
 
-<0299> I turn bright red.
+<0299> Mình đỏ ửng.
 // I turn bright red.
 
-<0300> You're so honest. Let me tell you something nice.
+<0300> Em khá thành thật đấy. Để chị bảo em cái này.
 // You're so honest. Let me tell you something nice.
 
-<0301> Huh?
+<0301> Dạ?
 // Huh?
 
-<0302> You know how Hiiragi's rehab menu is really tough?
+<0302> Em biết vì sao giáo án hồi phục của Hiiragi lại nặng đến vậy không?
 // You know how Hiiragi's rehab menu is really tough?
 
-<0303> \ He says he wants to walk on his own two legs as soon as possible. The reason is because...
+<0303> \ Cậu ấy nói muốn tự mình đi trên đôi chân của chính mình càng nhanh càng tốt. Lí do là bởi...
 // \ He says he wants to walk on his own two legs as soon as possible. The reason is because...
 
-<0304> They're still talking...
+<0304> Họ vẫn đang nói...
 // They're still talking...
 
-<0305> After doing one extra set on the parallel bars, I take a break while looking at the two of them.
+<0305> Sau khi tập thêm một lượt với xà kép , mình nghỉ một chút trong khi nhìn họ.
 // After doing one extra set on the parallel bars, I take a break while looking at the two of them.
 
-<0306> I think to myself while catching my breath.
+<0306> Mình tự ngẫm trong khi đang thở dốc.
 // I think to myself while catching my breath.
 
-<0307> It's as if I'm facing my past today.
+<0307> Như thể mình đang đối mặt với quá khứ của bản thân vậy.
 // It's as if I'm facing my past today.
 
-<0308> Ryou-san's fortune telling never comes true, but that's not a bad thing.
+<0308> Quẻ bói của Ryou-san chưa bao giờ trở thành sự thật, nhưng đó không phải là điều xấu.
 // Ryou-san's fortune telling never comes true, but that's not a bad thing.
 
-<0309> I was able to reunite with an important piece of my past.
+<0309> Mình đã có cơ hội đối diện với một phần quan trọng trong quá khứ của mình.
 // I was able to reunite with an important piece of my past.
 
-<0310> "Your parents are your parents. You are yourself."
+<0310> "Ba mẹ em là ba mẹ em. Em là em."
 // "Your parents are your parents. You are yourself."
 
-<0311> \ "You know what a 'negative example' is? It's like a role model of what not to be."
+<0311> \ "Em có biết "khuôn mẫu tiêu cực" là gì không? Nó giống như một hình mẫu không đáng có."
 // \ "You know what a 'negative example' is? It's like a role model of what not to be."
 
-<0312> "Since you know exactly the kind of person you don't want to be, then you should know how to be nice better than anyone else."
+<0312> "Khi mà em biết chính xác mẫu người mà em không muốn trở thành, em sẽ biết cách để trở nên tốt hơn so với những người khác."
 // "Since you know exactly the kind of person you don't want to be, then you should know how to be nice better than anyone else."
 
-<0313> Have I become nicer?
+<0313> Mình đã trở nên tốt hơn chưa?
 // Have I become nicer?
 
-<0314> Well, I want to be even nicer still.
+<0314> Chả, mình thậm chí còn muốn tốt hơn thế nữa.
 // Well, I want to be even nicer still.
 
-<0315> And I want to walk alongside a loved one.
+<0315> VÀ mình muốn được đi cạnh người mình yêu.
 // And I want to walk alongside a loved one.
 
-<0316> But to do that, I have to first be able to walk on my own two feet.
+<0316> Nhưng để làm vậy, mình phải tự đi trên chính đôi chân của mình đã.
 // But to do that, I have to first be able to walk on my own two feet.
 
-<0317> And I have to come bearing this.
+<0317> Và mình phải mang theo nó.
 // And I have to come bearing this.
 
-<0318> The promise to walk alongside one another into the future.
+<0318> Lời  hứa sẽ đi cạnh nửa kia về phía tương lai.
 // The promise to walk alongside one another into the future.
 
-<0319> \ Along with this ring.
+<0319> \ Cùng với chiếc nhẫn này.
 // \ Along with this ring.
 

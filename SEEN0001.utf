@@ -15,7 +15,7 @@
 <0004> Cậu này là Kimura-san. Cậu ấy ngồi bàn trước tớ trong lớp mới đấy.
 // This is Kimura-san. She sits in front of me in my new class.
 
-<0005> Người bạn hồi lớp cũ giới thiệu với mình một cô gái. 
+<0005> Người bạn hồi lớp cũ giới thiệu với mình một cô gái.
 // A friend introduces a girl to me.
 
 <0006> Hân hạnh gặp cậu. Tớ là Furukawa Nagisa. Hihi...
@@ -81,7 +81,7 @@
 <0026> Cậu tếu ghê, Nagisa-chan.
 // You're funny, Nagisa-chan.
 
-<0027> Bọn họ buôn chuyện về mình khi cả ba sánh bước cùng nhau. 
+<0027> Bọn họ buôn chuyện về mình khi cả ba sánh bước cùng nhau.
 // We all walk together while they talk about me.
 
 <0028> Mắc cỡ quá đi thôi.
@@ -225,7 +225,7 @@
 <0074> Phải, để dằn mặt đám năm nhất.
 // Yeah. One to mess with the first-years.
 
-<0075> \ Cho mấy tấm chiếu mới đó ngộ ra rằng trường này vẫn có những đứa vô pháp vô thiên như tụi mình! Đừng vội tưởng bở! 
+<0075> \ Cho mấy tấm chiếu mới đó ngộ ra rằng trường này vẫn có những đứa vô pháp vô thiên như tụi mình! Đừng vội tưởng bở!
 // \ It'll show the freshmen that this school's got outlaws like us! It won't be an easy ride!
 
 <0076> \ Thấy sao?
@@ -303,7 +303,7 @@
 <0099> Con vẫn chưa có dịp ạ.
 // I didn't get a chance.
 
-<0100> Khặc... Phải chủ động lên chứ con! Dõng dạc giới thiệu về bản thân mình ấy! 
+<0100> Khặc... Phải chủ động lên chứ con! Dõng dạc giới thiệu về bản thân mình ấy!
 // Gah... You gotta put yourself out there! Introduce yourself!
 
 <0101> Cháu đây, cháu đây! Cháu gái ông, Nagisa đây! Cháu có một khoản phí cần nhờ ông thanh toán hộ!
@@ -346,10 +346,10 @@
 <0113> Phải. Khi con nhỡ mồm gọi cô giáo là...
 // Yeah. When you call the teacher...
 
-<0114> \ "Mẹ"! Vẫn có người gọi nhầm thế mà. Thay vào đó, con hãy gọi cô là...
+<0114> \ 『Mẹ』! Vẫn có người gọi nhầm thế mà. Thay vào đó, con hãy gọi cô là...
 // \ "Mom"! You know? It's kind of like that. Mistake the teacher for...
 
-<0115> \ "Mẹ Ultra"! Gào thật to vào!
+<0115> \ 『Mẹ Ultra』! Gào thật to vào!
 // \ "Ultraman Mom"! Yell that out real loudly.
 
 <0116> Thôi, con nghe đến đây thôi.
@@ -361,13 +361,13 @@
 <0118> \ Họ sẽ nghĩ con có máu mủ với Ultraman!
 // \ They'll think you're related to Ultraman!
 
-<0119> \ "Liệu bạn ấy có biến hình được không nhỉ?”
+<0119> \ 『Liệu bạn ấy có biến hình được không nhỉ?』
 // \ "She can transform?"
 
-<0120> \ "Hỏi thử đi?”
+<0120> \ 『Hỏi thử đi?』
 // \ "Wanna ask?"
 
-<0121> \ "Furukawa-sannnnnn!"
+<0121> \ 『Furukawa-sannnnnn!』
 // \ "Furukawa-san!"
 
 <0122> ... Con đi chuẩn bị bữa tối đây ạ.
@@ -409,10 +409,10 @@
 <0134> Mẹ Ultra...
 // Ultraman Mom...
 
-<0135> "Lẽ nào Furukawa-san...
+<0135> 『Lẽ nào Furukawa-san...
 // "Is Furukawa-san..."
 
-<0136> \ có máu mủ với Ultraman ư?"
+<0136> \ có máu mủ với Ultraman ư?』
 // \ "...related to Ultraman?"
 
 <0137> Mình lắc đầu quầy quậy.
@@ -478,7 +478,7 @@
 <0156> \ Cho chúng nó một bài học nhớ đời, rằng không phải đàn anh nào cũng vui vẻ, hiền hòa cả đâu.
 // \ We'll let them know that not all upperclassmen are fun and games.
 
-<0157> Mặc xác mày. Làm gì thì làm nhanh lên đi. 
+<0157> Mặc xác mày. Làm gì thì làm nhanh lên đi.
 // Yeah, whatever. Let's just quit this.
 
 <0158> Rồi, giờ đến dải băng rôn bung từ bên trong quả cầu ra.
@@ -499,7 +499,7 @@
 <0163> Thế còn...
 // Then how about...
 
-<0164> Còn dỏm hơn nữa. Mày phải đảo ngược hai vế trước và sau chữ "by" chứ.
+<0164> Còn dỏm hơn nữa. Mày phải đảo ngược hai vế trước và sau chữ 『by』 chứ.
 // That's even worse. For starters, the words near "by" should be reversed.
 
 <0165> Ngưng càu nhàu và tự viết đi!
@@ -517,7 +517,7 @@
 <0169> Dẹp cái thứ hổ lốn đó đi.
 // That's really overbearing, so no.
 
-<0170> Cắt bỏ cái "Đầu đường xó chợ" vậy.
+<0170> Cắt bỏ cái 『Đầu đường xó chợ』 vậy.
 // Then you can play the role of Hara-bou.
 
 <0171> Cắt ghép kiểu gì cũng đỡ không nổi đâu.
@@ -559,13 +559,13 @@
 <0183> Vì ngay trước mặt tôi bây giờ là...
 // Right in front of me is...
 
-<0184> "Kéo đi nào.
+<0184> 『Kéo đi nào.
 // "Please pull me."
 
 <0185> \ Làm ơn đó.
 // \ "Please."
 
-<0186> \ Vui dữ lắm."
+<0186> \ Vui dữ lắm.』
 // \ "It's fun."
 
 <0187> Một mảnh giấy nguệch ngoạc mấy dòng như thế được treo ngay dưới quả cầu.
@@ -601,7 +601,7 @@
 <0197> Không khí lễ khai giảng thật trầm lắng, thế mà học sinh lại luôn miệng xì xào bàn tán.
 // The atmosphere is quiet and subdued during the entrance ceremony, but students are murmuring.
 
-<0198> \ Có lẽ họ đang chán chường lắm. Mình còn thấy một bạn năm nhất che miệng ngáp một cú rõ to nữa. 
+<0198> \ Có lẽ họ đang chán chường lắm. Mình còn thấy một bạn năm nhất che miệng ngáp một cú rõ to nữa.
 // \ Maybe they're bored. I see a first-year hiding a yawn behind his hands.
 
 <0199> Trong lễ nhập học hai năm trước, mình lại không nhận thức được bản thân khi ấy đã bồn chồn ra sao.
@@ -721,6 +721,6 @@
 <0237> Thông điệp viết trên dải băng rôn đó đã giúp mình có thêm động lực.
 // I'm encouraged by the words written on that scroll.
 
-<0238> "Tâm thế vững vàng, ngại chi gian khó. By Xin thỉnh giáo!"
+<0238> 『Tâm thế vững vàng, ngại chi gian khó. By Xin thỉnh giáo!』
 // "Don't let hardship get you down. By'Best Regards'."
 

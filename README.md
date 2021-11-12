@@ -1,10 +1,12 @@
 # clannad-ngoai-truyen
 Đánh nhanh thắng nhanh
 
-kyryu(Kyryu97)(trở lại và lợi hại hơn xưa):  3(xong) 4(xong) 9(xong) 12
+kyryu(Kyryu97): 3 4 9 12
 
-schro(yukawacool): 13(xong) 14(xong) 15(xong) 16 (xong)
+schro(yukawacool): 13 14 15 16
 
-Nutella và Lee(Arandomguyoninternet) : 1(xong) 2(xong) 5(xong) 6(xong) 7(xong) 8(xong) 10 (xong) 11(xong)
+Nutella và Lee(Arandomguyoninternet) : 1 2 5 6 7 8 10 11
 
 Cách tìm nhanh các line chưa dịch bằng regex: <....>(.\*)\[\n\r]*\\/\\/\1
+
+Tiến độ dịch: 100%

@@ -156,7 +156,7 @@
 <0051> Còn hỏi nữa, đương nhiên là sửa soạn cho lễ khai giảng rồi.
 // We're getting ready for the entrance ceremony.
 
-<0052> Sunohara trả lời tôi mà tay vẫn không ngừng nã từng nhát búa xuống.
+<0052> Sunohara trả lời tôi mà tay vẫn không ngừng nã từng nhát búa.
 // Sunohara answers me while hammering a nail.
 
 <0053> Liên quan quái gì tới mày đâu...?
@@ -222,7 +222,7 @@
 <0073> Bẫy hả?
 // A trap?
 
-<0074> Phải, để dằn mặt đám năm nhất.
+<0074> Phải. Để dằn mặt đám năm nhất.
 // Yeah. One to mess with the first-years.
 
 <0075> \ Cho mấy tấm chiếu mới đó ngộ ra rằng trường này vẫn có những đứa vô pháp vô thiên như tụi mình! Đừng vội tưởng bở!
@@ -255,7 +255,7 @@
 <0084> Tớ mong cậu sẽ chóng quen được nhiều bạn trong lớp mới, Nagisa-chan.
 // I hope you make some new friends in your class soon, Nagisa-chan.
 
-<0085> Cậu ấy quay sang mình và mở lời.
+<0085> Cậu ấy quay sang mình và động viên.
 // She turns to me as she says that.
 
 <0086> Gật.
@@ -291,7 +291,7 @@
 // Welcome back. How was it? Are you in the same class with your friends?
 //akio
 
-<0096> Ba cũng ngừng tay để hỏi thăm mình; miệng ông còn đang phì phèo điếu thuốc.
+<0096> Ba cũng ngừng tay để hỏi thăm mình; miệng ba còn đang phì phèo điếu thuốc.
 // My father stops working to ask, a cigarette stuck in his mouth.
 
 <0097> Không ạ... chúng con học khác lớp.
@@ -490,14 +490,16 @@
 <0160> Viết gì đây ta?
 // What should I write?
 
-<0161> Thế này thì sao?
+<0161> Thế này thì sao...?
 // How about... that?
+// Cặp bài trùng Sunohara-Okazaki by Xin thảo gính
 
 <0162> Có cả tá thứ tao muốn phản bác, nhưng thôi. Quên nó đi.
 // I've got a bunch of stuff to say to that, but never mind. Just stop.
 
 <0163> Thế còn...
 // Then how about...
+// Bộ đôi bá đạo Youhei-Tomoya by Xin thảo gính
 
 <0164> Còn dỏm hơn nữa. Mày phải đảo ngược hai vế trước và sau chữ 「by」 chứ.
 // That's even worse. For starters, the words near "by" should be reversed.
@@ -510,6 +512,7 @@
 
 <0167> À, hay là như này...
 // Then how about...
+// Cặp bài trùng Sunohara-Okazaki & Omega Tribe with J-WALK featuring Lang thang đầu đường xó chợ by Xin thảo gính
 
 <0168> Tao thấy ổn đấy.
 // Let's go with that.
@@ -519,6 +522,7 @@
 
 <0170> Cắt bỏ cái 「Đầu đường xó chợ」 vậy.
 // Then you can play the role of Hara-bou.
+// Cặp bài trùng Sunohara-Okazaki & Omega Tribe with J-WALK featuring Lang thang [Đầu đường xó chợ] (gạch X) by Xin thảo gính
 
 <0171> Cắt ghép kiểu gì cũng đỡ không nổi đâu.
 // Giving me that role doesn't change a thing.
@@ -592,7 +596,7 @@
 <0194> A... Bữa tối nay mà được ăn korokke thì thích thật đấy.
 // Ah... For tonight's dinner, croquettes would be good if we're having fried stuff.
 
-<0195> \ Còn món nào nữa ấy nhỉ? Củ sen thái sợi rán?
+<0195> \ Còn món nào nữa ấy nhỉ? Củ sen xào sợi?
 // \ And what else? Fried grated lotus root?
 
 <0196> \ Trên đường đến nhà thể dục, đầu óc mình chỉ toàn nghĩ đến đồ ăn mà thôi.
@@ -625,7 +629,7 @@
 <0205> Nhìn từ hàng ghế tầng hai, quả cầu trang trí vẫn nguyên xi.
 // By the second floor gallery seats, the ornamental ball remains unopened.
 
-<0206> Chẳng có ma nào bị lừa hết...
+<0206> Chả có ma nào bị lừa hết...
 // No one fell for it...
 
 <0207> Sunohara ngồi kế bên tôi, mồm há hốc.
@@ -637,7 +641,7 @@
 <0209> \ Đã thấy mình dở hơi chưa?
 // \ What an idiot.
 
-<0210> Khốn kiếp. Có lý nào trí khôn chúng nó lại vượt trên cả tao?
+<0210> Khốn kiếp... Có lý nào trí khôn chúng nó lại vượt trên cả tao?
 // Dammit... Does this mean their brains surpass mine?
 
 <0211> Chứ không phải trường này chỉ có mình mày đội sổ à?
@@ -688,7 +692,7 @@
 <0226> \ Ngốc hết chỗ nói...
 // \ There was an idiot...
 
-<0227> Khi tỉnh dậy, mình đang nằm trên giường. Bên cạnh là một vài bạn cùng lớp.
+<0227> Khi tỉnh dậy, mình đang nằm trên giường. Bên cạnh là vài người bạn cùng lớp.
 // When I wake up, I'm lying on a bed. Next to me are a couple familiar classmates.
 
 <0228> \ Là hai bạn ngồi bàn trước mình.
@@ -700,7 +704,7 @@
 <0230> À... vâng. Cổ tớ hơi đau chút xíu, nhưng không sao cả.
 // Yes... My neck hurts a little, but I'm fine.
 
-<0231> Cái thau đồng đó rõ ràng là một trò chơi khăm mà. Lúc đấy tớ đứng ngay sau cậu, nhưng cảnh cậu với tay lên kéo quả cầu gay cấn quá làm tớ không nhịn được cười. Xin lỗi nha.
+<0231> Cái thau đồng đó rõ là một trò chơi khăm. Lúc đấy tớ đứng ngay sau cậu, nhưng cảnh cậu với tay kéo quả cầu gay cấn quá làm tớ không nhịn cười được. Xin lỗi nha.
 // That metal basin was a prank. I was right behind you, but it looked so much like a comedy sketch that I couldn't help but laugh. I'm sorry.
 
 <0232> A, tớ không để bụng đâu.
@@ -712,7 +716,7 @@
 <0234> Mình biết mặt mình đang đỏ lựng cả rồi.
 // I can feel myself blushing.
 
-<0235> Nhưng mình phải chủ động lên mới được. Đây là cơ hội bắt chuyện với bạn bè mà người đã viết những dòng chữ Hán khó đọc đó trao cho mình.
+<0235> Nhưng mình phải chủ động lên mới được. Đây là cơ hội bắt chuyện với bạn bè mà người đã viết những dòng chữ khó đọc đó trao cho mình.
 // But I have to talk to them. This is the opportunity granted to me by the one who wrote those complicated kanji characters.
 
 <0236> Vậy là mình mở lời.
@@ -721,6 +725,6 @@
 <0237> Thông điệp viết trên dải băng rôn đó đã giúp mình có thêm động lực.
 // I'm encouraged by the words written on that scroll.
 
-<0238> 「Tâm thế vững vàng, ngại chi gian khó. By Xin thỉnh giáo!」
+<0238> 「Tâm thế vững vàng, ngại chi gian khó. By Xin thảo gính!」
 // "Don't let hardship get you down. By'Best Regards'."
 

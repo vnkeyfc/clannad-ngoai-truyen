@@ -10,3 +10,4 @@ Nutella và Lee(Arandomguyoninternet) : 1 2 5 6 7 8 10 11
 Cách tìm nhanh các line chưa dịch bằng regex: <....>(.\*)\[\n\r]*\\/\\/\1
 
 Tiến độ dịch: 100%
+QC truyện: 100%

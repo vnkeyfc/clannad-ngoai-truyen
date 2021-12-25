@@ -11,3 +11,6 @@ Cách tìm nhanh các line chưa dịch bằng regex: <....>(.\*)\[\n\r]*\\/\\/\
 
 Tiến độ dịch: 100%
 QC truyện: 100%
+
+Eto... 【Hoàn thành dự án】CLANNAD Ngoại truyện – Trên ngọn đồi có ánh sáng chở che
+🟢 Các bạn có thể tải về patch Việt hóa tại: https://vnkeyfc.com/.../patch/clannad-ngoai-truyen-viet-hoa/
